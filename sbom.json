@@ -12,7 +12,7 @@
       },
       {
         "vendor": "@cyclonedx",
-        "name": "cyclonedx-npm",
+        "name": "cyclonedx",
         "version": "1.9.2"
       }
     ],
@@ -30,7 +30,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/juice-shop@14.1.1?vcs_url=git%2Bhttps%3A//github.com/juice-shop/juice-shop.git",
+      "purl": "pkg:/juice-shop@14.1.1?vcs_url=git%2Bhttps%3A//github.com/juice-shop/juice-shop.git",
       "externalReferences": [
         {
           "url": "https://github.com/juice-shop/juice-shop/issues",
@@ -72,12 +72,12 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40babel/helper-string-parser@7.19.4#packages/babel-helper-string-parser",
+      "purl": "pkg:/%40babel/helper-string-parser@7.19.4#packages/babel-helper-string-parser",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.19.4.tgz",
+          "url": "https://registry..org/@babel/helper-string-parser/-/helper-string-parser-7.19.4.tgz",
           "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
+          "comment": "as detected from -ls property \"resolved\""
         },
         {
           "url": "https://github.com/babel/babel/issues",
@@ -117,12 +117,12 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40babel/helper-validator-identifier@7.19.1#packages/babel-helper-validator-identifier",
+      "purl": "pkg:/%40babel/helper-validator-identifier@7.19.1#packages/babel-helper-validator-identifier",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz",
+          "url": "https://registry..org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz",
           "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
+          "comment": "as detected from -ls property \"resolved\""
         },
         {
           "url": "https://github.com/babel/babel/issues",
@@ -162,12 +162,12 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40babel/parser@7.21.2#packages/babel-parser",
+      "purl": "pkg:/%40babel/parser@7.21.2#packages/babel-parser",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.21.2.tgz",
+          "url": "https://registry..org/@babel/parser/-/parser-7.21.2.tgz",
           "type": "distribution",
-          "comment": "as detected from npm-ls property \"resolved\""
+          "comment": "as detected from -ls property \"resolved\""
         },
         {
           "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A+parser+%28babylon%29%22+is%3Aopen",

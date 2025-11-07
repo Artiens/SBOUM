@@ -1,2121 +1,979 @@
 name,version,ecosystem,vendor
-acl,2.2.53,,
-acpid,2.0.30,,
-apr,1.6.3,,
-apr-util,1.6.1,,
-audit,3,,
-audit-libs,3,,
-basesystem,11,,
-bash,4.4.19,,
-beecrypt,4.2.1,,
-bind,9.11.36,,
-bind-export-libs,9.11.36,,
-bind-libs,9.11.36,,
-bind-libs-lite,9.11.36,,
-bind-license,9.11.36,,
-bind-utils,9.11.36,,
-binutils,2.3,,
-bonnie++,1.98,,
-brotli,1.0.6,,
-busybox-dp,11.2.5.0,,
-bzip2,1.0.6,,
-bzip2-libs,1.0.6,,
-c-ares,1.13.0,,
-chicken,3.0.0,,
-chkconfig,1.13,,
-cjose,0.6.1,,
-cjson,1,,
-coreutils,8.3,,
-coreutils-common,8.3,,
-corosync,3.0.3,,
-corosynclib,3.0.3,,
-cpio,2.12,,
-cpp,8.3.1,,
-cracklib,2.9.6,,
-cracklib-dicts,2.9.6,,
-crontabs,1.11,,
-crypto-policies,20200713,,
-crypto-policies-scripts,20200713,,
-curl-minimal,7.61.1,Debian,
-dejavu-fonts-common,2.35,,
-dejavu-sans-fonts,2.35,,
-device-mapper,1.02.171,,
-device-mapper-libs,1.02.171,,
-device-nodes,8.0.0,,
-dhcp-client,4.3.6,,
-dhcp-common,4.3.6,,
-dhcp-devel,4.3.6,,
-dhcp-libs,4.3.6,,
-dhcp-server,4.3.6,,
-diffutils,3.6,,
-dmidecode,3.2,,
-dosfstools,4.1,,
-dpdk-vm,22.11.5,,
-dpdk_2211,22.11.1,,
-dracut,49,,
-e2fsprogs,1.45.6,,
-e2fsprogs-libs,1.45.6,,
-efitools,1.9.2,,
-efivar,37,,
-efivar-libs,37,,
-elfutils-default-yama-scope,0.18,,
-elfutils-libelf,0.18,,
-elfutils-libs,0.18,,
-envoy-proxy,v2,,
-ethtool,5,,
-eventlog,0.2.12,,
-expat,2.2.5,,
-fastlz,0.1.0,,
-file,5.33,,
-file-libs,5.33,,
-filesystem,3.8,,
-findutils,4.6.0,,
-fipscheck,1.5.0,,
-fipscheck-lib,1.5.0,,
-flashrom,1.2,,
-flatcc,0.6.1,,
-fontconfig,2.13.1,,
-fontpackages-filesystem,1.44,,
-fping,4.2,,
-freetype,2.9.1,,
-frr,8.4_dpd,,
-fuse,2.9.7,,
-fuse-common,3.2.1,,
-fuse-libs,2.9.7,,
-gawk,4.2.1,,
-gc,7.6.4,,
-gdb,8.2,,
-gdb-headless,8.2,,
-gdbm,1.18,,
-gdbm-libs,1.18,,
-gdisk,1.0.3,,
-glib2,2.56.4,,
-glibc,2.27,Debian,
-glibc,2.28,Debian,
-glibc-common,2.27,Debian,
-glibc-common,2.28,Debian,
-glibc-langpack-en,2.28,Debian,
-gmp,6.1.2,,
-gnupg2,2.2.20,,
-gnutls,3.6.16,,
-google-api-python-client,1.12.8,,
-google-auth,1.26.1,,
-google-auth-httplib2,0.0.4,,
-google-cloud-core,1.6.0,,
-google-cloud-monitoring,2.0.0,,
-google-cloud-storage,1.36.0,,
-googleapis-common-protos,1.52.0,,
-gperftools-devel,2.4,,
-gperftools-libs,2.4,,
-gpgme,1.13.1,,
-grep,3.1,,
-grpc,v1.30.0,Go,
-grub,6.0.97,,
-grub,7.0.97,,
-grub-cfg,11.2.5.1,,
-grub2-efi-aa64,2.02,,
-grub2-efi-x64,2.02,,
-grub2-noraid-efi-x64,2.02,,
-gsoap,2.8.6,,
-guile,2.0.14,,
-gzip,1.9,,
-hiredis,1.0.2,,
-hostname,3.2,,
-httpd,2.4.37,,
-httpd-filesystem,2.4.37,,
-httpd-tools,2.4.37,,
-hwdata,0.314,,
-hyperscan,4.2.0,,
-hyperscan5,5.3.0,,
-i2c-tools,4.3,,
-ima-evm-utils,1.1,,
-info,6.5,,
-initscripts,8.45.17,,
-initscripts-utils,8.45.17,,
-insydeh2offt_x86_linux64,200.01.00.02,,
-insydeh2offt_x86_linux64,200.02.00.06,,
-intel-ipsec-mb,1.3.0,,
-intel-ipsec-mb-devel,1.3.0,,
-intel-nvm,1,,
-ipcalc,0.2.4,,
-iproute,5.3.0,,
-iptables,1.4.21,,
-iptables,1.8.4,,
-iptables-libs,1.8.4,,
-iptables-utils,1.4.21,,
-iptables-utils,1.8.4,,
-iputils,20180629,,
-iputils-dp,20180629,,
-irqbalance,1.4.0,,
-ivykis,0.42.4,,
-jansson,2.11,,
-json-c,0.13.1,,
-kernel-core,4.18.0,,
-kernel-kdump-kdump,5.14.0,,
-kernel-modules,4.18.0,,
-kernel-modules-extra,4.18.0,,
-kernel-octeon2-dp,3.10.87,,
-kernel-octeon2-lfp,3.10.87,,
-kernel-octeon2-mp,3.10.87,,
-keyutils,1.5.10,,
-keyutils-libs,1.5.10,,
-kmod,25,,
-kmod-libs,25,,
-krb5-libs,1.18.2,,
-krb5-workstation,1.18.2,,
-lcms2,2.9,,
-less,530,,
-leveldb,1.22,,
-libacl,2.2.53,,
-libamdsecrng,3.1.0,,
-libamqp,1.0.0,,
-libarchive,3.3.2,,
-libassuan,2.5.1,,
-libatomic_ops,7.6.2,,
-libattr,2.4.48,,
-libbabeltrace,1.5.4,,
-libblkid,2.32.1,,
-libbpf,0.2.0,,
-libbson,1.17.6,,
-libcap,2.48,,
-libcap-ng,0.7.9,,
-libcom_err,1.45.6,,
-libcurl-minimal,7.61.1,,
-libdb,5.3.28,,
-libdb-utils,5.3.28,,
-libdrng,1.0.4,,
-libedit,3.1,,
-libedit1,2.11,,
-libev,4.24,,
-libevent,2.1.8,,
-libfdisk,2.32.1,,
-libffi,3.1,,
-libftdi,1.4,,
-libgcc,7.3.0,,
-libgcc,8.3.1,,
-libgcrypt,1.8.5,,
-libgomp,8.3.1,,
-libgpg-error,1.31,,
-libi2c,4.3,,
-libibverbs,29,,
-libicu,60.3,,
-libidn,1.34,,
-libidn2,2.2.0,,
-libipt,1.6.1,,
-libjpeg-turbo,1.5.3,,
-libkadm5,1.18.2,,
-libknet1,1.16,,
-libknet1-crypto-nss-plugin,1.16,,
-libksba,1.3.5,,
-libldb,2.3.0,,
-liblog4shib2,2.0.0,,
-libmaxminddb,1.2.0,,
-libmcrypt,2.5.8,,
-libmetalink,0.1.3,,
-libmnl,1.0.4,,
-libmongocrypt,1.2.0,,
-libmount,2.32.1,,
-libmpc,1.0.2,,
-libnet,1.1.6,,
-libnetfilter_conntrack,1.0.6,,
-libnfnetlink,1.0.1,,
-libnfsidmap,2.3.3,,
-libnftnl,1.1.5,,
-libnghttp2,1.33.0,,
-libnl3,3.5.0,,
-libnsl,2.28,,
-libnsl2,1.2.0,,
-liboqs,0.9.2,,
-libpcap,1.9.1,,
-libpkgconf,1.4.2,,
-libpng,1.6.34,,
-libpsl,0.20.2,,
-libpwquality,1.4.0,,
-libqb,1.0.3,,
-libradius,1,,
-libsaml12,3.2.0,,
-libseccomp,2.4.3,,
-libsecret,0.18.6,,
-libselinux,2.9,,
-libselinux-utils,2.9,,
-libsemanage,2.9,,
-libsepol,2.9,,
-libsigsegv,2.11,,
-libsmartcols,2.32.1,,
-libsmbclient,4.14.5,,
-libss,1.45.6,,
-libstdc++,7.3.0,,
-libstdc++,8.3.1,,
-libsysfs,2.1.0,,
-libtalloc,2.3.2,,
-libtasn1,4.13,,
-libtdb,1.4.3,,
-libtecla,1.6.1,,
-libtevent,0.10.2,,
-libtiff,4.0.9,,
-libtirpc,1.1.4,,
-libtool-ltdl,2.4.6,,
-libunistring,0.9.9,,
-libunwind,1.3.1,,
-libusbx,1.0.23,,
-libuser,0.62,,
-libuuid,2.32.1,,
-libverto,0.3.0,,
-libvolume_id,127,,
-libwbclient,4.14.5,,
-libwsman1,2.6.5,,
-libxcrypt,4.1.1,,
-libxerces-c-3_2,3.2.3,,
-libxml-security-c20,2.0.2,,
-libxml2,2.9.7,Debian,
-libxmltooling10,3.2.0,,
-libxslt,1.1.32,,
-libyaml,0.1.7,,
-libyang,2.1.128,,
-libzip,1.6.1,,
-libzstd,1.4.4,,
-linux-firmware,20200619,,
-lm_sensors,3.4.0,,
-lm_sensors-libs,3.4.0,,
-lmdb-libs,0.9.24,,
-lockdev,1.0.4,,
-logrotate,3.14.0,,
-lrzsz,0.12.20,,
-lsof,4.93.2,,
-lua,5.3.4,,
-lua-libs,5.3.4,,
-lz4,1.8.3,,
-lz4-libs,1.8.3,,
-lzo,2.08,,
-mailx,12.5,,
-mariadb-connector-c,3.1.11,,
-mariadb-connector-c-config,3.1.11,,
-mcelog,194,,
-mdadm,4.1,,
-mingetty,1.07,,
-minicom,2.7.1,,
-mlnx-ofa_kernel-modules,4.9,,
-mmc-utils,1,,
-modules-intel-mp,11.2.5.1,,
-modules-intel-mp-vm,11.2.5.1,,
-mongo,1,,
-mongo-c-driver-libs,1.17.6,,
-mongodb,3.6.19,,
-mpfr,3.1.6,,
-ms2frr,11.0.828,,
-mtdutils,1.0.0,,
-ncurses,6.1,,
-ncurses-base,6.1,,
-ncurses-libs,6.1,,
-ncurses-term,6.1,,
-net-snmp,5.8,,
-net-snmp-agent-libs,5.8,,
-net-snmp-libs,5.8,,
-net-snmp-utils,5.8,,
-net-tools,2,,
-nettle,3.4.1,,
-nfs-utils,2.3.3,,
-nginx-bin,1.20.1,,
-nginx-filesystem,1.20.1,,
-npth,1.5,,
-nspr,4.35.0,,
-nss,3.90.0,,
-nss-pam-ldapd,0.9.9,,
-nss-softokn,3.90.0,,
-nss-softokn-freebl,3.90.0,,
-nss-sysinit,3.90.0,,
-nss-tools,3.90.0,,
-nss-util,3.90.0,,
-ntfs-3g,2017.3.23,,
-ntfsprogs,2017.3.23,,
-ntp,4.2.8p15,,
-ntp-dp,4.2.8p15,,
-ntpdate,4.2.8p15,,
-ntpstat,0.5,,
-numactl-libs,2.0.12,,
-oniguruma5php,6.9.7.1,,
-onnxruntime,1.15.1,,
-open-vm-tools,12.1.0,,
-openjpeg2,2.4.0,,
-openldap,2.4.46,,
-openldap-clients,2.4.46,,
-opensaml-schemas,3.2.0,,
-openssh,8.0p1,,
-openssh-clients,8.0p1,,
-openssh-server,8.0p1,,
-openssl,1.1.1g,Debian,
-openssl-dp,1.1.1g,Debian,
-openssl-dp-libs,1.1.1g,Debian,
-openssl-dpt13,1.1.1a,Debian,
-openssl-libs,1.1.1g,Debian,
-openwsman-client,2.6.5,,
-openwsman-server,2.6.5,,
-oprofile,0.9.9,,
-p11-kit,0.23.22,,
-p11-kit-trust,0.23.22,,
-pam,1.3.1,,
-pam_krb5,2.4.8,,
-panos-release,8.3,,
-parted,3.2,,
-passwd,0.8,,
-pciutils,3.6.4,,
-pciutils-libs,3.6.4,,
-pcre,8.42,,
-pcre2,10.32,,
-perf,4.18.0,,
-phantomjs,1.9.8,,
-php,7.4.33,,
-php-bcmath,7.4.33,,
-php-cli,7.4.33,,
-php-common,7.4.33,,
-php-embedded,7.4.33,,
-php-fpm,7.4.33,,
-php-gmp,7.4.33,,
-php-json,7.4.33,,
-php-mbstring,7.4.33,,
-php-mysqlnd,7.4.33,,
-php-pdo,7.4.33,,
-php-pecl-mongodb,1.9.1,,
-php-xml,7.4.33,,
-pinentry,1.1.0,,
-pkgconf,1.4.2,,
-pkgconf-m4,1.4.2,,
-pkgconf-pkg-config,1.4.2,,
-platform-python,3.6.8,,
-platform-python-pip,9.0.3,PyPI,
-platform-python-setuptools,39.2.0,PyPI,
-policycoreutils,2.9,,
-popt,1.16,,
-pprof,2.4,,
-procps-ng,3.3.15,,
-protobuf,3.5.0,Go,
-psmisc,23.1,,
-pth,2.0.7,,
-publicsuffix-list-dafsa,20180723,,
-pybloomfiltermmap3,0.4.15,,
-pycrypto,2.6.1,,
-python-collectd-cloudwatch,0.0.2,,
-python-libevent,0.9.2,,
-python3-asn1crypto,0.24.0,,
-python3-audit,3,,
-python3-bind,9.11.36,,
-python3-bloom,0.10.0,,
-python3-boto3,1.15.15,PyPI,
-python3-botocore,1.18.15,PyPI,
-python3-bson,3.7.0,,
-python3-catkin_pkg,0.4.23,,
-python3-cffi,1.11.5,,
-python3-chardet,3.0.4,,
-python3-cryptography,3.2.1,,
-python3-dateutil,2.6.1,,
-python3-distro,1.4.0,,
-python3-docutils,0.14,,
-python3-empy,3.3.4,,
-python3-fasteners,0.14.1,,
-python3-httplib2,0.10.3,,
-python3-idna,2.5,PyPI,
-python3-jmespath,0.9.0,PyPI,
-python3-libs,3.6.8,,
-python3-libxml2,2.9.7,,
-python3-m2crypto,0.35.2,,
-python3-oauth2client,4.1.3,,
-python3-pexpect,4.3.1,PyPI,
-python3-pillow,5.1.1,PyPI,
-python3-pip,9.0.3,PyPI,
-python3-pip-wheel,9.0.3,PyPI,
-python3-ply,3.9,,
-python3-psutil,5.6.4,PyPI,
-python3-ptyprocess,0.5.2,,
-python3-pyasn1,0.3.7,PyPI,
-python3-pyasn1-modules,0.3.7,PyPI,
-python3-pycparser,2.14,PyPI,
-python3-pycurl,7.43.0.2,,
-python3-pymongo,3.7.0,PyPI,
-python3-pyparsing,2.1.10,PyPI,
-python3-pypdf2,1.26.0,PyPI,
-python3-pytz,2019.3,PyPI,
-python3-pyyaml,3.12,PyPI,
-python3-reportlab,3.4.0,PyPI,
-python3-requests,2.20.0,PyPI,
-python3-rosdep,0.19.0,PyPI,
-python3-rosdistro,0.8.3,PyPI,
-python3-rospkg,1.2.8,PyPI,
-python3-rpm,4.14.3,,
-python3-s3transfer,0.3.4,PyPI,
-python3-setuptools,39.2.0,PyPI,
-python3-setuptools-wheel,39.2.0,PyPI,
-python3-six,1.11.0,PyPI,
-python3-uritemplate,3.0.0,PyPI,
-python3-urlgrabber,4.1.0,,
-python3-urllib3,1.24.2,PyPI,
-python3-vcstool,0.2.15,,
-python3-vcstools,0.1.42,PyPI,
-python36,3.6.8,,
-quota,4.04,,
-quota-nls,4.04,,
-rcs,5.10.0,,
-rdma-core,29,,
-readline,7,,
-redis,6.2.6,,
-rootfiles,8.1,,
-rpcbind,1.2.5,,
-rpm,4.14.3,,
-rpm-build-libs,4.14.3,,
-rpm-libs,4.14.3,,
-rpm-plugin-selinux,4.14.3,,
-rsa,4.8,,
-samba-client-libs,4.14.5,,
-samba-common,4.14.5,,
-samba-common-libs,4.14.5,,
-sbsigntools,0.9.2,,
-scrub,2.5.2,,
-sed,4.5,,
-selinux-policy,3.14.3,,
-selinux-policy-targeted,3.14.3,,
-setup,2.12.2,,
-shadow-utils,4.6,,
-shim-x64,15,,
-smartmontools,7.1,,
-snappy,1.1.8,,
-sqlite,3.26.0,,
-sqlite-libs,3.26.0,,
-sscep,0.9.0,,
-sshpass,1.06,,
-sysfsutils,2.1.0,,
-syslinux,6.04,,
-syslog-ng,3.29.1,,
-sysstat,11.7.3,,
-tacacs,1,,
-tar,1.3,,
-tcp_wrappers,7.6,,
-tcp_wrappers-libs,7.6,,
-tcpdump,4.9.3,,
-td-agent-bit,1.8.110,,
-tecla,1.6.3,,
-telnet,0.17,,
-telnet-server,0.17,,
-tftp,5.2,,
-tftp-server,5.2,,
-timedatex,0.5,,
-tpm2-tss,2.3.2,,
-traceroute,2.1.0,,
-udev,127,,
-ustr,1.0.4,,
-util-linux,2.32.1,,
-util-linux-dp,2.32.1,,
-util-linux-user,2.32.1,,
-vconfig,1.9,,
-vectorscan,5.4.6,,
-vim-minimal,8.0.1763,,
-virt-what,1.18,,
-vixie-cron,4.1,,
-waofflinevmod,4.3.3.501,,
-wget,1.19.5,,
-which,2.21,,
-wmi,1.3.13,,
-wpaeapol,2.9,,
-xdelta,3.1.0,,
-xe-guest-utilities-latest,7.21.0,,
-xinetd,2.3.15,,
-xmlsec1,1.2.25,,
-xmlsec1-openssl,1.2.25,Debian,
-xmltodict,0.12.0,,
-xmltooling-schemas,3.2.0,,
-xz,5.2.4,,
-xz-libs,5.2.4,,
-zlib,1.2.11,Debian,
-busybox-dp,11.1.8.1,,
-cpp,7.3.0,,
-dpdk,20.11.2,,
-dpdk_7500_800g,20.11.1,,
-dpdk_7500_dpc,20.11.1,,
-dracut-network,49,,
-dracut-squash,49,,
-frr,8.0_dpd,,
-grub-cfg,11.1.8.1,,
-kexec-tools,2.0.20,,
-libyang2,2.0.7,,
-make,4.2.1,,
-modules-intel-mp,11.1.8.1,,
-modules-intel-mp-vm,11.1.8.1,,
-nss_nis,3,,
-rsync,3.1.3,,
-squashfs-tools,4.3,,
-busybox-dp,11.0.6.1,,
-dpdk-vm,20.11.8,,
-envoy-proxy,v1,,
-etcd,3.2.21,,
-glibc-debuginfo,2.28,Debian,
-glibc-debuginfo-common,2.28,Debian,
-grub-cfg,11.0.6.1,,
-insydeh2offt_x86_linux64,200.01.00.05,,
-mcelog,144,,
-modules-intel-mp,11.0.6.1,,
-modules-intel-mp-vm,11.0.6.1,,
-ms2frr,11.1.134,,
-nginx-bin,1.18.0,,
-nginx-filesystem,1.18.0,,
-open-vm-tools,10.3.10,,
-p11-kit,0.23.14,,
-p11-kit-trust,0.23.14,,
-busybox-dp,10.2.14.1,,
-cyrus-sasl-lib,2.1.27,,
-dpdk-vm,21.11.1,,
-gnutls,3.6.14,,
-grub-cfg,10.2.14.1,,
-kernel-octeon3-mp,3.10.87,,
-libldb,2.1.3,,
-libsmbclient,4.12.3,,
-libtalloc,2.3.1,,
-libwbclient,4.12.3,,
-modules-intel-mp,10.2.14.1,,
-modules-intel-mp-vm,10.2.14.1,,
-ms2frr,10.2.821,,
-python3-cryptography,2.3,,
-redis,5.0.3,,
-samba-client-libs,4.12.3,,
-samba-common,4.12.3,,
-samba-common-libs,4.12.3,,
-attr-lib,2.4.47,,
-audit-libs,2.4.1,,
-basesystem,10.0.8,,
-bash,4.2.46,,
-bind-libs,9.9.4,,
-bind-libs-lite,9.9.4,,
-bind-license,9.9.4,,
-bind-utils,9.9.4,,
-bonnie++,1.03d,,
-botocore,1.4.42,PyPI,
-c-ares,1.10.0,,
-centos-release,7,,
-chkconfig,1.3.61,,
-cpp,4.8.5,,
-cracklib,2.9.0,,
-cracklib-dicts,2.9.0,,
-curl,7.60.0,Debian,
-cyrus-sasl-lib,2.1.26,,
-dejavu-fonts-common,2.33,,
-dejavu-sans-fonts,2.33,,
-device-mapper,1.02.107,,
-device-mapper-libs,1.02.107,,
-dhclient,4.2.5,,
-dhcp-common,4.2.5,,
-dhcp-libs,4.2.5,,
-diskscrub,2.5.2,,
-dmidecode,2.12,,
-e2fsprogs,1.42.9,,
-e2fsprogs-libs,1.42.9,,
-elfutils,0.176,,
-enum,0.4.6,,
-envoy-proxy,1.el7,,
-etcd,3.2.22,,
-ethtool,4.5,,
-file,5.11,,
-file-libs,5.11,,
-filesystem,3.2,,
-findutils,4.5.11,,
-fipscheck,1.4.1,,
-fipscheck-lib,1.4.1,,
-flatcc,1,,
-fontconfig,2.10.95,,
-fping,4.0.5,,
-frr,6.1_dpd,,
-fuse-libs,2.8.5,,
-glibc,2.17,Debian,
-glibc-debuginfo,2.17,Debian,
-google-auth,0.8.0,,
-google-auth-httplib2,0.0.2,,
-google-cloud-core,0.23.0,,
-google-cloud-error_reporting,1.5.2,,
-google-cloud-monitoring,0.24.0,,
-google-cloud-storage,0.23.1,,
-google-perftools,2.4,,
-google-snappy,1.1.0,,
-gperftools,2.4,,
-grpc,1.30.0,Go,
-gzip,1.5,,
-hiredis,0.13.3,,
-httpd,2.4.6,,
-httpd-tools,2.4.6,,
-httplib2,0.9.2,,
-hwdata,0.252,,
-hyperscan5,4.2.0,,
-initscripts,8.45.15,,
-iproute2,3.10.0,,
-iputils,20121221,,
-jmespath,0.9.0,PyPI,
-json-c,0.11,,
-keyutils,1.5.8,,
-keyutils-libs,1.5.8,,
-krb5-libs,1.13.1,,
-krb5-workstation,1.13.1,,
-libacl,2.2.51,,
-libampq,1.0.0,,
-libassuan,2.1.0,,
-libattr,2.4.6,,
-libblkid,2.23.2,,
-libcap-dev,2.22,,
-libcap-ng,0.7.5,,
-libcjson,0.0.1,,
-libcom_err,1.42.9,,
-libcurl,7.60.0,,
-libdb,5.3.21,,
-libdb-utils,5.3.21,,
-libevent,2.0.21,,
-libexpat,2.1.0,,
-libffi,3.2.1,,
-libgcc,4.8.5,,
-libgcrypt,1.5.3,,
-libgpg-error,1.12,,
-libgssglue,0.1,,
-libibverbs,23.1,,
-libjpeg-turbo,1.2.90,,
-liblockdev1,1.0.4,,
-liblog4shib,1.0.9,,
-libmount,2.23.2,,
-libmpc,1.0.1,,
-libnet-dev,1.1.6,,
-libnfsidmap,0.25,,
-libnfsidmap-dev,0.25,,
-libpcap,1.5.3,,
-libpng,1.5.13,,
-libpwquality,1.2.3,,
-libsaml8,2.5.5,,
-libselinux,2.2.2,,
-libsemanage,2.1.10,,
-libsepol,2.1.9,,
-libsmbclient,3.0.33,,
-libss,1.42.9,,
-libstdc++,4.8.5,,
-libtirpc,0.2.4,,
-libunwind,1.1,,
-libuser,0.6,,
-libuuid,2.23.2,,
-libxml2-python,2.9.4,,
-libxml-security-c17,1.7.3,,
-libxmltooling,1.6.4,,
-libxslt,1.1.28,,
-libyang,0.16.46,,
-linux-firmware,20180911,,
-lm_sensors,3.3.4,,
-lm_sensors-libs,3.3.4,,
-logrotate,3.8.6,,
-lsvpd,2.1.0,,
-mcrypt,2.5.8,,
-module-init-tools,3.3,,
-mpfr-dev,3.1.1,,
-myproxy-libs,2.1.26,,
-ncurses,5.9,,
-ncurses-base,5.9,,
-ncurses-libs,5.9,,
-ncurses-term,5.9,,
-nspr,4.25.0,,
-nss-softokn,3.53.1,,
-nss-softokn-freebl,3.53.1,,
-nss-tools,3.53.1,,
-nss-utils,3.53.1,,
-numactl,2.0.9,,
-openldap-clients,2.4.40,,
-openssh-clients,7.7p1,,
-openssh-server,7.7p1,,
-openssl-dpt13,1.0.1e,Debian,
-openwsman,2.6.0,,
-pam_ldap,1.8.4,,
-parted,3.1,,
-passwd,0.79,,
-pciutils,3.2.1,,
-pciutils-libs,3.2.1,,
-pexpect,2.3,PyPI,
-php-common,5.6.25,,
-php-embedded,5.6.25,,
-php-httpd,5.6.25,,
-php-pecl-jsonc,1.3.6,,
-pinentry,0.8.1,,
-popt,1.13,,
-procps-ng,3.3.10,,
-psmisc,22.2,,
-psutil,3.2.1,PyPI,
-py-oauth2client,4.0.0,,
-py-requests,2.13.0,PyPI,
-python2-google-api-client,1.6.2,,
-python2-rsa,3.4.2,,
-python2-s3transfer,0.1.10,PyPI,
-python-backports,1,,
-python-backports-,3.4.0.2,,
-python-bloom,0.1.12,,
-python-bson,3.0.3,,
-python-collectd-cloudwatch,0.0.1,,
-pythonfutures,3.1.1,,
-python-ipaddr,2.1.11,,
-python-pillow,2.0.0,PyPI,
-python-pyasn1,0.1.7,PyPI,
-python-pyasn1-modules,0.1.7,PyPI,
-python-reportlab,2.5,PyPI,
-python-urlgrabber,3.1,,
-rcs,5.9.0,,
-redis,5.0.0,,
-rpm-libs,4.11.3,,
-sed,4.2.2,,
-setup,2.8.71-6.el7,,
-setuptools,0.9.8,PyPI,
-sscep,1.0.0,,
-sshpass,1.05,,
-sysklogd,1.4.1,,
-syslog-ng-incubator,3.29.1,,
-syslog-ng-python,3.29.1,,
-sysstat,10.1.5,,
-tcpdump,4.5.1,,
-traceroute,2.0.19,,
-typing,3.6.2,,
-uritemplate,3.0.0,PyPI,
-util-linux,2.23.2,,
-util-linux-extras,2.23.2,,
-vim-minimal,7.4.629,,
-virt-what,1.13,,
-wpaeapol,2.6.5,,
-xdelta,3.0.7,,
-xe-guest-utilities,7.19.0,,
-xe-guest-utilities-xenstore,6.1.0,,
-xmltodict,0.9.0,,
-zlib,1.2.7,Debian,
-attr-lib,2.4.46,,
-grub,0.97,,
-initscripts,8.45.14.EL,,
-libcomerr2,1.42.9,,
-nss-softokn,3.44.0,,
-nss-softokn-freebl,3.44.0,,
-nss-tools,3.44.0,,
-nss-utils,3.44.0,,
-python-crypto,2.6.1,,
-python-cryptography,1.7.1,,
-syslog-ng,3.9.1,,
-syslog-ng-incubator,3.9.1,,
-syslog-ng-python,3.9.1,,
-vim-minimal,7.4.160,,
-xe-guest-utilities,6.1.0,,
-gridstack,0.3.0-dev,npm,epelc
-base-files,8,,
-binutils,2.23,,
-boto3,1.4.1,PyPI,
-bsdutils,2.30.2,,
-ci-node-server,0.0.6,,
-cracklib2,2.8.16,,
-cyrus-sasl,2.1.26,,
-devtoolset-3-binutils,2.24,,
-dhcp-doc,4.3.4,,
-diff,3.3,,
-elfutils,0.163,,
-es5-shim,4.0.3,,
-firepad,0.1.4,,
-global-store,0.7.1,,
-google-api-python-client,1.5.4,,
-google-api-python-client-,1.6.2,,
-graphael,1.1.0,,
-grr-client-templates,3.1.0.2,,
-hwdata-pnp,0.282,,
-ie10-viewport-bug-,1.0.0,,
-jmespath.py,0.9.0,PyPI,
-jspdf-autotable,2.3.0,,
-jspm-resolve,1.0.6,,
-libgssglue1,0.1,,
-libguestfs,1.16.19,,
-libidn,1.28,,
-libjpeg,1.2.90,,
-libpth-dbg,2.0.7,,
-mpc,1.0.1,,
-mumble-django,2.5,PyPI,
-nss-softokn,3.19.1,,
-nss-softokn-freebl,3.19.1,,
-nss-tools,3.19.1,,
-nss-utils,3.19.1,,
-object-assign-shim,1.0.0,,
-openwsman,2.3.6,,
-php-fpdf,1.53.dfsg,,
-php-mongodb,1.1.2,,
-pinentry-gtk2,0.8.1,,
-prismic.io,1.1.4,,
-py-boto3,1.4.0,PyPI,
-py-dateutil,2.5.3,,
-py-jmespath,0.9.0,PyPI,
-py-uritemplate,3.0.0,PyPI,
-py-urlgrabber-doc,3.10.1,,
-python-s3transfer,0.1.10,PyPI,
-python-pcs,0.6+debian,,
-python-urwid,0.9.8.3,,
-redis,3.2.4,,
-rsa-legacypython,3.4.2,,
-smart_proxy_dhcp_remote_isc,0.0.2.1,,
-socket.io-browserify,0.9.11,,
-sphinx_rtd_theme,0.4.1,,
-uritemplate-py,3.0.0,PyPI,
-usbutils,7,,
-when,3.7.3,,
-myproxy-libs,6.1.29,,
-acpid,1.0.10,,
-basesystem,8,,
-bash,3.1,,
-beecrypt,4.1.2,,
-bind-libs,9.3.3,,
-bind-utils,9.3.3,,
-binutils,2.23.51.0.3,,
-bzip2,1.0.3,,
-bzip2-libs,1.0.3,,
-chkconfig,1.3.30.1,,
-coreutils,5.97,,
-cpio,2.6,,
-cpp,4.1.1,,
-cracklib,2.8.9,,
-cracklib-dicts,2.8.9,,
-crontabs,1.1,,
-curl,7.20.1,Debian,
-dhclient,3.0.5,,
-dhcp,3.0.5,,
-diffutils,2.8.1,,
-dmidecode,2.11,,
-dpdk,2.2,,
-drng_samples,1,,
-e2fsprogs,1.39,,
-e2fsprogs-libs,1.39,,
-e4fsprogs,1.41.12,,
-e4fsprogs-libs,1.41.12,,
-elfutils-libelf,0.128,,
-expat,1.95.8,,
-file,5.04,,
-file-libs,5.04,,
-filesystem,2.4.0,,
-findutils,4.2.27,,
-fipscheck,1.2.0,,
-fipscheck-lib,1.2.0,,
-flashrom,0.9.4,,
-fontconfig,2.4.1,,
-freetype,2.3.11,,
-gawk,3.1.5,,
-glib,2.12.9,,
-glib2,2.42.2,,
-glibc,2.16,Debian,
-glibc-common,2.16,Debian,
-gmp,4.3.1,,
-gnupg,1.4.5,,
-gperftools,2.2,,
-grep,2.5.1,,
-gzip,1.3.5,,
-inetutils,1.5,,
-info,4.8,,
-iproute,2.6.18,,
-iptables,1.3.5,,
-iptables-ipv6,1.3.5,,
-iputils,20020927,,
-irqbalance,1.13,,
-keyutils-libs,1.2,,
-less,394,,
-leveldb,1.15.0,,
-libacl,2.2.39,,
-libattr,2.4.32,,
-libcurl4,7.20.1,,
-libevent,2.0.19,,
-libgcc,4.7.0,,
-libgethostbyname,1,,
-libgssapi,0.1,,
-liblog4shib1,1.09,,
-libpcap,0.9.4,,
-libpng,1.2.44,,
-libresolv,1,,
-libsepol,1.15.2,,
-libssp,4.7.2,,
-libstdc++,4.7.0,,
-libsysfs,2.0.0,,
-libtermcap,2.0.8,,
-libuser,0.54.7,,
-libxerces-c-3_1,3.1.2,,
-libxml2,2.9.4,Debian,
-libxmltooling6,1.5.6,,
-lm_sensors,2.10.7,,
-lockdev,1.0.1,,
-logrotate,3.7.4,,
-lunasa,1,,
-mailx,8.1.1,,
-mdadm,2.6.9,,
-minicom,2.1,,
-mktemp,1.5,,
-mmc-utils,1.0,,
-mongodb,2.6.11,,
-ncurses,5.5,,
-net-tools,1.6,,
-nfs-utils,1.0.9,,
-nfs-utils-lib,1.0.8,,
-ntp,4.2.8p6,,
-ntp-dp,4.2.8p6,,
-ntpdate,4.2.8p6,,
-open-vm-tools,9.4.6,,
-openldap,2.4.23,,
-openldap-clients,2.4.23,,
-opensaml-schemas,2.5.5,,
-openssh,6.4p1,,
-openssh-clients,6.4p1,,
-openssh-server,6.4p1,,
-openssl,1.0.1e,Debian,
-openssl-mp,1.0.1e,Debian,
-pam,1.0.2,,
-pam_krb5,2.2.14,,
-panos-release,2,,
-parted,1.8.1,,
-passwd,0.73,,
-pciutils,3.1.4,,
-pciutils-libs,3.1.4,,
-pcre,6.6,,
-php-cli,5.3.17,,
-php-ext,5.3.17,,
-popt,1.12,,
-portmap,4,,
-procps,3.2.8,,
-python,2.4.3,,
-python26,2.6.5,,
-python26-libs,2.6.5,,
-python-alt,2.7.5,,
-python-alt-libs,2.7.5,,
-python-boto,2.32.1,,
-python-elementtree,1.2.6,,
-python-imaging,1.1.5,,
-python-rsa,3.4.2,,
-python-sqlite,1.1.7,,
-python-urlgrabber,3.1.0,,
-python-waagentlib,2.0.13,,
-rcs,5.7,,
-readline,5.1,,
-redhat-logos,4.9.8,,
-reportlab,2.2,PyPI,
-rpm,4.4.2,,
-rpm-libs,4.4.2,,
-rpm-python,4.4.2,,
-s3fs,1.74,,
-samba-common,3.0.33,,
-scrub,2.1,,
-sed,4.1.5,,
-setup,2.5.58,,
-shadow-utils,4.0.17,,
-smartmontools,6.4,,
-snappy,1.0.1,,
-sqlite,3.6.12,,
-sysfsutils,2.0.0,,
-syslinux,3.11,,
-syslog-ng,3.2.5,,
-tar,1.15.1,,
-tcpdump,3.9.4,,
-termcap,5.5,,
-tftp,0.48,,
-tftp-server,0.48,,
-traceroute,2.0.1,,
-util-linux,2.13,,
-vim-minimal,7.0.109,,
-vmware-netx,0.6,,
-wget,1.16.2,,
-xdelta,1.1.3,,
-xdelta3,3.0t,,
-xinetd,2.3.14,,
-xmltooling-schemas,1.5.6,,
-xz-libs,4.999.9,,
-zlib,1.2.3,Debian,
-krb5-,1.13.1,,
-library,2.0,,
-libxerces-,3.1.2,,
-c-3_1,2.0,,
-libxml-,1.7.3,,
-security-c17,2.0,,
-libxml2-,2.9.4,Debian,
-libraries,2.0,,
-module-init-,3.3,,
-net-snmp,5.4.4,,
-nss-softokn-,3.14.3,,
-openldap-,2.4.23,,
-opensaml-,2.5.5,,
-schemas,2.0,,
-openssh-,6.4p1,,
-php,5.3.17,,
-libraries,v3.01,,
-python-,1.2.6,,
-python-,1.1.5,,
-python-,0.1.7,,
-python-,3.1.0,,
-python-,2.0.13,,
-waagentlib,2.0,,
-samba-,3.0.33,,
-xe-guest-,6.1.0,,
-xmltooling-,1.5.6,,
-etcd3,0.12.0,,
-inotify-tools,3.14,,
-mariadb-connector-c-,3.1.11,,
-python-collectd-,0.0.2,,
-python3-monotonic,1.5,,
-strongswan,5.9.3,,
-tenacity,6.3.1,,
-trousers,0.3.15,,
-trousers-lib,0.3.15,,
-acl,2.2.51,,
-acpid,2.0.19,,
-apr,1.4.8,,
-apr-util,1.5.2,,
-audit,2.4.1,,
-basesystem,10,,
-bind-libs,9.11.4,,
-binutils,2.27,,
-coreutils,8.22,,
-cpio,2.11,,
-diffutils,3.3,,
-dpdk,19.11.14,,
-elfutils-libelf,0.176,,
-expat,2.1.0,,
-fping,4,,
-futures,3.1.1,crates.io,
-gawk,4.0.2,,
-gdb,7.12,,
-glib2,2.56.1,,
-glibc-common,2.17,Debian,
-gmp,6.0.0,,
-gnupg2,2.0.22,,
-google-api-python-client,1.6.2,,
-google-cloud-core,0.23.1,,
-google-cloud-monitoring,0.23.1,,
-googleapis-common-protos,1.5.2,,
-grep,2.2,,
-info,5.1,,
-iproute,3.10.0,,
-less,458,,
-libattr,2.4.46,,
-libcap,2.22,,
-libibverbs1,23.1,,
-libinotifytools0,3.14,,
-liblog4shib1,1.0.9,,
-libmlx4-1,23.1,,
-libmlx5-1,23.1,,
-libnl3,3.2.28,,
-libtool-ltdl,2.4.2,,
-libxmltooling7,1.6.4,,
-libyaml,0.1.4,,
-lua,5.3.2,,
-lzo,2.06,,
-m2crypto,0.30.1,,
-mpfr,3.1.1,,
-nfs-utils,1.3.0,,
-nss,3.53.1,,
-nss-sysinit,3.53.1,,
-nss-util,3.53.1,,
-numactl-libs,2.0.9,,
-oauth2client,4.0.0,,
-openldap,2.4.40,,
-openssh,7.7p1,,
-pam,1.1.8,,
-pcre,8.32,,
-php,5.6.25,,
-php-cli,5.6.25,,
-protobuf,3.2.0,Go,
-pymongo,3.0.3,PyPI,
-python,2.7.5,,
-python-collectd-,0.0.1,,
-python-enum34,1.1.6,,
-python-etcd3,0.8.1,,
-python-grpcio,1.14.2,,
-python-httplib2,0.9.2,,
-python-libs,2.7.5,,
-python-monotonic,1.5,,
-python-psutil,3.3.0,PyPI,
-python-pycrypto,2.6.1,,
-python-pycurl,7.43.0,,
-python-pytz,2015.7,PyPI,
-python-requests,2.13.0,PyPI,
-python-setuptools,0.9.8,PyPI,
-python-six,1.10.0,PyPI,
-python-tenacity,4.12.0,,
-python-xmltodict,0.9.0,,
-python2-libxml2,2.9.7,,
-python2-typing,3.6.2,,
-python27-boto3,1.4.0,PyPI,
-python27-botocore,1.4.42,PyPI,
-python27-dateutil,2.5.3,,
-python27-jmespath,0.9.0,PyPI,
-readline,6.2,,
-rpcbind,0.2.0,,
-rpm,4.11.3,,
-rpm-python,4.11.3,,
-rsa,3.4.2,,
-rsync,3.0.9,,
-s3transfer,0.1.10,PyPI,
-setup,2.8.71,,
-shadow-utils,4.1.5.1,,
-snappy,1.1.0,,
-sqlite,3.7.17,,
-strongswan,5.6.0,,
-tar,1.26,,
-wpaeapol,2.6,,
-xmltooling-schemas,1.6.4,,
-xz-libs,5.1.2,,
-alpine-base,3.10.3,,
-alpine-baselayout,3.1.2,,
-alpine-keys,2.1,,
-apk-tools,2.10.4,,
-boto3,1.4.0,PyPI,
-boto3,1.4.2,PyPI,
-botocore,1.4.3,PyPI,
-botocore,1.4.41,PyPI,
-ca-certificates,20190108,,
-cni,0.6.0,,
-cni-plugins,0.7.4,,
-cobra,0.0.5,Go,
-dejavu-fonts-,2.33,,
-enum34,1.1.6,,
-etcd,v3.2.22,,
-etcd3,0.8.1,,
-google-api-python-,1.5.4,,
-google-api-python-,1.6.2,,
-google-auth,1.0.1,,
-google-cloud-core,0.25.0,,
-google-cloud-,1.5.2,,
-google-cloud-,0.24.0,,
-grpcio,1.17.1rc1,,
-k3s,v1.17.4-,,
-k8s,1.13.2,,
-k8s-client-go,10.0.0,,
-libcalico-go,1.7.3,,
-libyang,0.16_p3,,
-logrus,1.3.0,Go,
-musl,1.1.22,,
-netlink,1.0.0,,
-node-ncurses,0.3.0,,
-nss-softokn-freebl,3.33.0,,
-otj-pg-embedded,0.11.2,,
-py-boto3,1.9.75,PyPI,
-python-dateutil,2.5.3,PyPI,
-python2-pyyaml,3.12,PyPI,
-s3transfer,0.1.3,PyPI,
-syslog-ng,3.8.1,,
-syslog-ng-python,3.8.1,,
-tcp-wrappers,7.6,,
-testing-postgresql-,0.4,,
-trivy,0.1.7,,
-urlgrabber,4.0.0,,
-adal,1.2.6,,
-crash,7.2.8,,
-davici,1.3.0,,
-elasticsearch,7.17.14,,
-ipmitool,1.8.18,,
-jre,1.8.0_201,,
-kernel-dbinfo,4.18.0,,
-librdkafka,0.11.4,,
-msrest,0.6.21,,
-msrestazure,0.6.4,,
-nodejs,16.17.1,,
-pacparser,1.3.7,,
-python-azure-sdk,4.0.0,,
-python3-certifi,2018.10.15,PyPI,
-python3-isodate,0.6.0,,
-python3-jwt,1.6.1,,
-python3-kubernetes,11.0.0,,
-python3-oauthlib,2.1.0,,
-python3-websocket-client,0.56.0,,
-requests-oauthlib,1.3.0,PyPI,
-elasticsearch-oss,6.8.23,,
-bind,9.11.4,,
-bind-export-libs,9.11.4,,
-bind-libs-lite,9.11.4,,
-bind-license,9.11.4,,
-bind-utils,9.11.4,,
-crash,7.2.0,,
-efivar,36,,
-efivar-libs,36,,
-elfutils-libs,0.176,,
-freetype,2.4.11,,
-gdisk,0.8.10,,
-grub-cfg,10.1.14.1,,
-ipmitool,1.8.13,,
-kexec-tools,2.0.15,,
-kubernetes,7.0.0,,
-librdkafka1,0.9.1,,
-mdadm,4.1rc.1.2,,
-nodejs,0.6.18,,
-php-pecl-mongodb,1.3.4,,
-python-adal,1.0.2,,
-python-azure-sdk,3.0.0,,
-python-certifi-alt,2016.9.26,PyPI,
-python-chardet-alt,3.0.4,,
-python-enum,0.4.6,,
-python-futures,3.2.0,,
-python-idna-alt,2.5,PyPI,
-python-isodate,0.5.4,,
-python-jwt,1.6.1,,
-python-msrest,0.4.29,,
-python-msrestazure,0.4.34,,
-python-oauthlib-alt,2.0.1,,
-python-requests-oauthlib-alt,0.8.0,PyPI,
-python-ssl_match_hostname,3.5.0.1,,
-python-urllib3-alt,1.22,PyPI,
-python-websocket-client-alt,0.47.0,,
-python2-requests-alt,2.18.4,PyPI,
-aggs-matrix-stats,5.6.7,,
-azure-sdk-for-python,6.1.2.9,,
-backports.ssl_match_hostname,3.5.0.1,,
-beanvalidation-api,1.1.0.Final,,
-binutils,2.24,,
-bytes,0.1.0,,
-bytes.js,0.2.1,,
-chardet,3.0.4,,
-chart,3.2.0,,
-colors.js,0.6.0-1,,
-connect,2.2.0,,
-cookies,0.3.2,,
-css-parse,1.0.4,,
-cycle,1.0.1,,
-debug,0.7.2,,
-ejs,1.0.0,,
-expressjs,3.2.5,,
-external-objenesis,1.0.4,,
-formidable,1.0.14,,
-fresh,0.1.0,,
-gradle-onejar,0.0.8,,
-i18n-js,3.0.4,,
-idna,2.5,PyPI,
-ingest-common,5.6.7,,
-isodate,0.5.4,,
-jackson-annotations,2.9.5,Maven,
-jackson-core,2.9.5,Maven,
-jackson-databind,2.9.5,Maven,
-jackson-dataformat-smile,2.8.6,,
-jackson-dataformat-yaml,2.8.6,,
-jackson-datatype-guava,2.9.5,Maven,
-jackson-datatype-joda,2.9.5,,
-java-classmate,1.2.0,,
-jcodings,1.0.12,,
-joni,2.1.6,,
-js-bson,0.2.2,,
-js-web-socket-js,1.0.2,,
-lang-expression,5.6.7,,
-lang-groovy,5.6.7,,
-lang-mustache,5.6.7,,
-lang-mustache-client,5.6.10,,
-lang-painless,5.6.7,,
-methods,0.0.1,,
-mime,1.2.6,,
-node-active-x-obfuscator,0.0.2,,
-node-cookie,0.1.0,,
-node-cookie-signature,1.0.1,,
-node-gently,v0.9.2,,
-nodejs-stack-trace,0.0.9,,
-node-mkdirp,0.3.5,,
-node-policyfile,0.0.5,,
-node-stack-trace,0.0.6,,
-nvidia-visual-profiler,9.1.85,,
-oauthlib,2.0.1,,
-parent-join,5.6.7,,
-pause,0.0.1,,
-percolator-client,5.6.7,,
-pkginfo,0.2.3,,
-policyfile,0.0.4,,
-python2-adal,1.0.2,,
-python2-jwt,1.6.1,,
-python2-msrestazure,0.5.0,,
-python2-requests,2.18.4,PyPI,
-python2-urllib3,1.22,PyPI,
-python2-websocket-client,0.47.0,,
-python-backports.ssl-match-,3.4.0.2,,
-python-certifi,2016.9.26,PyPI,
-pythonfutures,3.2.0,,
-python-urllib3,1.22,PyPI,
-range-parser,0.0.4,,
-redis-knack,v0.8.1,,
-reindex-client,5.6.7,,
-request,2.11.4,,
-requests,2.18.4,PyPI,
-requests-legacypython,2.18.4,PyPI,
-requests-oauthlib,0.8.0,PyPI,
-rest,5.6.7,,
-send,0.2.0,,
-socket.io-agilelaw,0.9.13,,
-spf4j-zel,8.3.18,,
-swagger-annotations,1.5.3,,
-swagger-models,1.5.3,,
-sysstat,v10.1.5,,
-sysvinit,2.86,,
-t-digest,3,,
-tinycolor,0.0.1,,
-transport-netty3-client,5.6.7,,
-transport-netty4-client,5.6.7,,
-underscore,1.4.3,,
-urlgrabber,3.1,,
-urllib3,1.22,PyPI,
-websocket_client,1.0.0,,
-winston,0.7.3,,
-ws,0.4.22,,
-zeparser,0.0.7,,
-python-pyasn1-modules,0.0.5,PyPI,
-syslog-ng-incubator,3.8.1,,
-elasticsearch,2.2.2,,
-glibc,2.12,Debian,
-glibc-common,2.12,Debian,
-ipmitool,1.8.11,,
-jre,1.8.0_60,,
-libgcc,4.4.7,,
-libstdc++,4.7.2,,
-mongo-php-driver,1.2.12,,
-python-dpkt,1.7,,
-python-hashlib,20081119,,
-python-magic,5.04,,
-mongo-php-,1.2.12,,
-driver,v3.01,,
-python-,20081119,,
-hashlib,2.5,,
-python-,2.6.1,,
-appliance,1.40.1,,
-attr,2.4.48,,
-augeas-libs,1.12.0,,
-boost-program-options,1.66.0,,
-bridge-utils,1.6,,
-checkpolicy,2.9,,
-consul,1.11.4,,
-device-mapper-event,1.02.171,,
-device-mapper-event-libs,1.02.171,,
-dpkt,1.9.5,,
-erlang,22.0.7,,
-gearman3,0.2.0,,
-gearmand,1.1.19.1,,
-hexedit,1.2.13,,
-hivex,1.3.18,,
-libaio,0.3.112,,
-libfdt,1.6.0,,
-libgearman,1.1.19.1,,
-libguestfs,1.44.0,,
-libguestfs-tools-c,1.44.0,,
-libmemcached,1.0.18,,
-libmemcached-libs,1.0.18,,
-libpq,12.4,,
-lsscsi,0.3,,
-lvm2,2.03.09,,
-mariadb,10.5.9,,
-mariadb-common,10.5.9,,
-mariadb-errmsg,10.5.9,,
-mariadb-server,10.5.9,,
-mariadb-server-utils,10.5.9,,
-multipath-tools,0.4.9,,
-nbd,2.9.20,,
-pixman,0.38.4,,
-policycoreutils-python-utils,2.9,,
-protobuf-lite,3.5.0,Go,
-pyrabbit2,1.0.7,,
-python-consul,1.1.0,,
-python3-colorclass,2.2.0,,
-python3-decorator,4.2.1,,
-python3-easygui,0.96,,
-python3-inotify,0.9.6,,
-python3-libarchive-c,2.8,,
-python3-magic,5.33,,
-python3-msoffcrypto,4.10.1,,
-python3-mysql,1.4.6,,
-python3-olefile,0.46,,
-python3-oletools,0.56,,
-python3-pcodedmp,1.2.6,,
-python3-pika,1.0.1,,
-python3-policycoreutils,2.9,,
-python3-prettytable,0.7.2,,
-python3-pymilter,1.0.4,,
-python3-redis,3.5.3,,
-python3-setproctitle,1.1.10,,
-python3-simplejson,3.17.0,,
-python3-uwsgidecorators,2.0.18,,
-qemu-img,4.2.0,,
-qemu-kvm-vnc,4.2.0,,
-rabbitmq-server,3.8.9,,
-rarfile,4,,
-redis-py-cluster,2.1.0,,
-tokyocabinet,1.4.48,,
-tor,0.4.4.6,,
-tunctl,1.5,,
-unrar,5.4.0,,
-uwsgi,2.0.18,,
-uwsgi-plugin-common,2.0.18,,
-uwsgi-plugin-python3,2.0.18,,
-yara,3.11.0,,
-yara-python,4.0.5,,
-appliance,1,,
-attr,2.4.46,,
-boost-program-options,1.53.0,,
-bridge-utils,1.5,,
-consul,0.7.0,,
-docker-ce,17.12.1,,
-erlang,18.3,,
-fuse-libs,2.7.4,,
-gearmand,1.1.8,,
-guestfs,1,,
-libaio,0.3.109,,
-libarchive,3.1.2,,
-libgearman,1.1.8,,
-lvm2,2.02.130,,
-lvm2-sysvinit,2.02.130,,
-mongodb,3.4.20,,
-ntfs-3g_ntfsprogs,2012.1.15,,
-python-backports-lzma,0.0.2,,
-python-consul,0.6.1,,
-python-decorator,4.0.10,,
-python-dpkt,1.8.6,,
-python-gearman,2.0.2,,
-python-hiredis,0.2.0,,
-python-inotify,0.5,,
-python-libarchive,0.4.3,,
-python-magic,5.11,,
-python-mcrypt,1.1,,
-python-oletools,0.5,,
-python-pika,0.10.0,,
-python-prettytable,0.7.2,,
-python-pyrabbit,1.1.0,,
-python-rarfile,3,,
-python-redis,2.10.5,,
-python-redis-py-cluster,1.1.0,,
-python-setproctitle,1.1.9,,
-python-simplejson,3.8.2,,
-python-uwsgi,2.0.12,,
-qemu-kvm,0.15.1,,
-rabbitmq-server,3.6.1,,
-tor,0.4.7.13,,
-unrar,5.2.2,,
-yara,3.8.1,,
-yara-python,3.8.1,,
-appflower_studio,1.0beta-,,
-backports.lzma,0.0.2,,
-bluemusic,2.5.14,,
-bootstrap-multiselect,20180515,,
-cloudinary_js,1.0.4,,
-com.sun.tools.visualvm.host,1.0.0,,
-com.sun.tools.visualvm.jmx,1.0.0,,
-com.sun.tools.visualvm.jvm,2.1.0,,
-decorator,4.0.10,,
-dicompyler,0.4.2,,
-drozer,2.4.4,,
-eclipse.equinox.event,1.3.100.,,
-erlang,18.2.2,,
-erlang-base,18.2-dfsg,,
-erlang-erts,18.2.2,,
-erlang-kernel,18.2.2,,
-erlang-otp_mibs,18.3,,
-erlang-stdlib,18.2.2,,
-erlang-syntax_tools,18.3,,
-famfamfam-silk,1.3,,
-gpxe-roms-qemu,0.9.7,,
-hiredis,0.2.0,,
-is-loading,1.0.1,,
-javax.servlet,3.0.0.,,
-javax.servlet.jsp,2.2.0.,,
-knottie-sammy,0.7.6,,
-libaio-dev,0.3.109,,
-libntfs-3g-dev,2012.1.15AR.5,,
-ms-amqp-transport,9.0.0,,
-mythtv-doc,29.0+fixes.,,
-nginx,1.0.15,,
-ntfs-3g-dev,2012.1.15,,
-oletools,0.5,,
-openpilot-drive,v0.3.4,,
-org.apache.commons.logging,1.1.1.,,
-org.apache.jasper.glassfish,2.2.2.,,
-org.apache.lucene.core_3.5.0.v20120725-1805.jar,3.5.0.,,
-org.eclipse.core.net,1.2.200.,,
-org.eclipse.ecf,3.1.300.,,
-org.eclipse.ecf.filetransfer,5.0.0.,,
-org.eclipse.ecf.provider.filetransfer,3.2.0.,,
-org.eclipse.equinox.common,3.6.200.,,
-org.eclipse.equinox.ds,1.4.101.,,
-org.eclipse.equinox.frameworkadmin,2.0.100.,,
-org.eclipse.equinox.frameworkadmin.equinox,1.0.500.,,
-org.eclipse.equinox.jsp.jasper,1.0.400.,,
-org.eclipse.equinox.launcher,1.3.0.,,
-org.eclipse.equinox.p2.artifact.repository,1.1.200.,,
-org.eclipse.equinox.p2.core,2.3.0.,,
-org.eclipse.equinox.p2.directorywatcher,1.0.300.,,
-org.eclipse.equinox.p2.engine,2.3.0.,,
-org.eclipse.equinox.p2.garbagecollector,1.0.200.,,
-org.eclipse.equinox.p2.jarprocessor,1.0.300.,,
-org.eclipse.equinox.p2.metadata.repository,1.2.100.,,
-org.eclipse.equinox.p2.publisher.eclipse,1.1.200.,,
-org.eclipse.equinox.p2.reconciler.dropins,1.1.200.,,
-org.eclipse.equinox.p2.touchpoint.natives,1.1.100.,,
-org.eclipse.equinox.p2.transport.ecf,1.1.0.,,
-org.eclipse.equinox.p2.updatechecker,1.1.200.,,
-org.eclipse.equinox.registry,3.5.400.,,
-org.eclipse.equinox.simpleconfigurator.manipulator,2.0.0.,,
-org.eclipse.equinox.util,1.0.500.,,
-org.eclipse.help_3.6.0.v20130326-1254.jar,3.6.0.,,
-org.eclipse.osgi,3.10.1.,,
-org.openide.modules,1.0.0,,
-org.openide.util,1.0.0,,
-org.osgi.service.log,1.3.0,Maven,org.osgi
-org.sat4j.core,2.3.5.,,
-org.sat4j.pb,2.3.5,,
-org.w3c.dom.events,3.0.0.,,
-org.w3c.dom.smil_1.0.0.v200806040011.jar,1.0.0,,
-org.w3c.dom.svg_1.1.0.v201011041433.jar,1.1.0,,
-osgi.core,6.0.0,,
-otj-pg-embedded,0.11.4,,
-php-tcpdf-gnu-free-mono-,6.2.26,,
-picard,2.8.2,,
-psutil,3.4.1,PyPI,
-pyrabbit,1.1.0,,
-py-rarfile,3,,
-py-setproctitle,1.1.9,,
-python-dpkt,1.8.r98,,
-python-oletools,0.51,,
-python-pefile,1.2.10.139,,
-qemu-kvm,0.12.1.2,,
-requests,2.12.4,PyPI,
-rh-redis32-redis,3.2.4,,
-runtime,3.10.0.,,
-sammyjs,0.7.6,,
-org.eclipse.core.commands,v20150422-0725,,
-org.eclipse.jface.text,v20150603-1752,,
-org.eclipse.ui.views,v20150422-0725,,
-org.eclipse.ui.workbench,v20150510-1732,,
-seabios,1.7.0,,
-sgabios,0,,
-stomp-websocket,2.3.4,,
-testing-postgresql-server,0.4,,
-org.eclipse.osgi.compatibility.state,v20150402-1551,,
-vgabios,0.6b,,
-vrl,0.4.3.1.0,,
-attr,2.4.32,,
-boost-program-options,1.41.0,,
-consul,0.6.4,,
-erlang,18.2,,
-java-wf,1,,
-jdk-wf,7.0.25,,
-libaio,0.3.107,,
-nbd,2.9.0,,
-php-common,5.3.17,,
-python-consul,0.6.0,,
-python-decorator,4.1.10,,
-python-redis,7.43.0,,
-python-requests,2.8.0,PyPI,
-redis,3.0.7,,
-tor,0.2.3.25,,
-appengine,1.6.7,,
-async-fp,8.1.1,,
-atomic,1.10.0,,
-atomic,1.7.0,,
-atomic,1.9.0,,
-bzip2,1.0.8,,
-c-ares,1.27.0,,
-collector,0.28.0,,
-compare-versions,4.1.3,,
-contrib,0.23.0,,
-cross-fetch,3.1.6,,
-date-fns,2.29.3,,
-dirname-filename-esm,1.1.1,,
-fmt,10.2.1,,
-genproto,0.0.0,,
-go.opencensus.io,0.23.0,,
-grpc,1.47.0,Go,
-grpc,1.48.0,Go,
-grpc,1.49.0,Go,
-grpc,1.50.1,Go,
-grpc,1.51.0,Go,
-grpc,1.53.0,Go,
-grpc,1.57.0,Go,
-history,5.3.0,,
-http-status,1.6.2,,
-iso-error,6.0.3,,
-iso-error-google-cloud-api,5.2.4,,
-iso-error-web,2.3.4,,
-js-base64,3.7.3,,
-libarchive,3.6.1,,
-mongo-driver,1.11.0,,
-mongo-driver,1.11.1,,
-mongo-driver,1.11.3,,
-mongo-driver,1.11.6,,
-multierr,1.6.0,,
-multierr,1.8.0,,
-multierr,1.9.0,,
-nlohmann,3.11.3,,
-otel,1.10.0,,
-otel,1.11.1,,
-otel,1.13.0,,
-protobuf,1.28.0,Go,
-protobuf,1.28.1,Go,
-protobuf,1.30.0,Go,
-protobuf,3.21.12,Go,
-pugixml,1.14,,
-react,16.14.0,npm,
-react-error-boundary,3.1.4,npm,
-react-hook-form,7.43.9,npm,
-react-intl,5.25.1,npm,
-react-router-dom,5.1.2,npm,
-react-table,7.7.0,npm,
-react-use-measure,2.1.1,npm,
-react-use-websocket,3.0.0,npm,
-redis,8.11.5,,
-sdk,1.15.0,,
-snappy,0.0.4,,
-spdlog,1.13.0,,
-standard-log-color,12.1.2,crates.io,
-strip-ansi,7.1.0,,
-tailwindcss,3.2.4,npm,
-tersify,3.11.1,,
-type-plus,7.6.0,,
-uni-require,0.0.1,,
-uuid,8.3.2,crates.io,
-wil,1.0.240122.1,,
-xterm-for-react,1.0.4,npm,
-yaml,2.4.0,,
-zap,1.23.0,Go,
-zap,1.24.0,Go,
-zlib,1.3.1,Debian,
-zod,3.22.2,,
-abab,2.0.6,,
-abbrev,1.1.1,,
-acorn-globals,7.0.1,,
-acorn-walk,8.2.0,,
-agent-base,6.0.2,,
-ajv,6.12.6,,
-ansi-regex,5.0.1,crates.io,
-ansi-regex,6.0.1,crates.io,
-ansi-styles,3.2.1,,
-ansi-styles,5.2.0,,
-ansi-styles,6.2.1,,
-ansi-styles,4.3.0,,
-any-promise,1.3.0,,
-anymatch,3.1.3,,
-array-buffer-byte-length,1.0.0,,
-array-union,2.1.0,,
-arraybuffer.prototype.slice,1.0.1,,
-assertion-error,1.1.0,,
-asynckit,0.4.0,,
-available-typed-arrays,1.0.5,,
-axios,1.4.0,npm,
-balanced-match,1.0.2,,
-benbjohnson-clock,1.3.0,,
-binary-extensions,2.2.0,,
-bluemonday,1.0.21,,
-boolbase,1.0.0,,
-brace-expansion,1.1.11,,
-brace-expansion,2.0.1,,
-cac,6.7.14,,
-call-bind,1.0.2,,
-callsites,3.1.0,,
-camelcase-css,2.0.1,,
-caniuse-lite,1.0.30001521,,
-cc,118.0.5993.70,,
-check-error,1.0.2,,
-chokidar,3.5.3,,
-chrome,v118.0.5993.70,,
-cli-truncate,3.1.0,,
-color-name,1.1.3,,
-color-name,1.1.4,,
-combined-stream,1.0.8,,
-components,v118.0.5993.70,,
-config-chain,1.1.13,,
-content,v118.0.5993.70,,
-core-js,3.32.0,,
-crypto,0.4.0,,
-cssesc,3.0.0,,
-cssom,0.3.8,,
-cssom,0.5.0,,
-cssstyle,2.3.0,,
-csstype,3.1.2,,
-data-urls,3.0.2,,
-de-indent,1.0.2,,
-decimal.js,10.4.3,,
-deep-eql,4.1.3,,
-deep-is,0.1.4,,
-define-properties,1.2.0,,
-delayed-stream,1.0.0,,
-deploy,v118.0.5993.70,,
-didyoumean.js,1.2.2,,
-dir-glob,3.0.1,,
-dlv,1.1.3,,
-docker,20.10.12,,
-docker-go-units,0.4.0,,
-docker-registry,2.8.0,,
-doctrine,3.0.0,,
-domexception,4.0.0,,
-eastasianwidth,0.2.0,,
-electron-to-chromium,1.4.492,,
-emoji-regex,9.2.2,crates.io,
-es-abstract,1.22.1,,
-es-set-tostringtag,2.0.1,,
-es-to-primitive,1.2.1,,
-esbuild,0.18.20,,
-escalade,3.1.1,,
-escape-string-regexp,1.0.5,,
-escape-string-regexp,4.0.0,,
-escodegen,2.1.0,,
-eslint-eslintrc,2.1.2,npm,
-eslint-js,8.47.0,npm,
-eslint-config-prettier,8.10.0,npm,
-eslint-plugin-prettier,4.2.1,npm,
-eslint-plugin-vue,9.17.0,npm,
-eslint-scope,7.2.2,npm,
-eslint-scope,5.1.1,npm,
-eslint-utils,2.1.0,npm,
-eslint-visitor-keys,1.3.0,npm,
-eslint-visitor-keys,3.4.3,npm,
-espree,9.6.1,,
-espree,6.2.1,,
-esquery,1.5.0,,
-esrecurse,4.3.0,,
-estraverse,5.3.0,,
-estraverse,4.3.0,,
-estree-walker,2.0.2,,
-esutils,2.0.3,,
-extensions,v118.0.5993.70,,
-fast-deep-equal,3.1.3,,
-fast-diff,1.3.0,,
-fast-glob,3.3.1,,
-fast-json-stable-stringify,2.1.0,,
-fast-levenshtein,2.0.6,,
-fastq,1.15.0,,
-file-entry-cache,6.0.1,,
-fill-range,7.0.1,,
-find-up,5.0.0,,
-flat-cache,3.0.4,,
-flatted,3.2.7,,
-follow-redirects,1.15.2,,
-form-data,4.0.0,,
-fraction.js,4.2.0,,
-fs.realpath,1.0.0,,
-fsevents,2.3.2,,
-fsnotify-fsnotify,1.5.1,,
-function-bind,1.1.1,,
-function.prototype.name,1.1.5,,
-functions-have-names,1.2.3,,
-get-func-name,2.0.0,,
-get-intrinsic,1.2.1,,
-get-symbol-description,1.0.0,,
-glob-parent,5.1.2,,
-glob-parent,6.0.2,,
-globalthis,1.0.3,,
-go-jwx,2.0.8,,
-go-ole-go-ole,1.2.6,,
-go-playground-universal-,0.18.0,,
-go-simplejson,0.5.0,,
-go-spew,1.1.1,,
-go-toml,2.0.6,,
-go-zap,1.24.0,Go,
-go.uuid,1.2.0,crates.io,
-golang-github-docker-go-,0.4.0,,
-goleak,1.1.12,,
-gopd,1.0.1,,
-gotest.tools,3.0.3,,
-graphemer,1.4.0,,
-grpc-go,1.50.1,Go,
-has,1.0.3,,
-has-bigints,1.0.2,,
-has-flag,3.0.0,,
-has-flag,4.0.0,,
-has-property-descriptors,1.0.0,,
-has-proto,1.0.1,,
-has-symbols,1.0.3,,
-has-tostringtag,1.0.0,,
-hosted-git-info,2.8.9,,
-html-encoding-sniffer,3.0.0,,
-https-proxy-agent,5.0.1,,
-iconv-lite,0.6.3,,
-immutable-js,4.3.2,,
-import-fresh,3.3.0,,
-imurmurhash,0.1.4,,
-inflight,1.0.6,,
-inherits,2.0.4,,
-internal-slot,1.0.5,,
-is-array-buffer,3.0.2,,
-is-arrayish,0.2.1,,
-is-bigint,1.0.4,,
-is-binary-path,2.1.0,,
-is-boolean-object,1.1.2,,
-is-callable,1.2.7,,
-is-core-module,2.13.0,,
-is-date-object,1.0.5,,
-is-extglob,2.1.1,,
-is-fullwidth-code-point,4.0.0,,
-is-glob,4.0.3,,
-is-negative-zero,2.0.2,,
-is-number,7.0.0,,
-is-number-object,1.0.7,,
-is-path-inside,3.0.3,,
-is-potential-custom-element-,1.0.1,,
-is-regex,1.1.4,crates.io,
-is-shared-array-buffer,1.0.2,,
-is-string,1.0.7,,
-is-symbol,1.0.4,,
-is-typed-array,1.1.12,,
-is-weakref,1.0.2,,
-isarray,2.0.5,,
-isexe,2.0.0,,
-jiti,1.19.1,,
-js-beautify,1.14.9,,
-js-yaml,4.1.0,,
-jsdiff,5.1.0,,
-jsdom,20.0.3,,
-json-parse-better-errors,1.0.2,,
-json-schema-traverse,0.4.1,,
-json5,2.2.3,,
-jsonc-eslint-parser,1.4.1,npm,
-jsonc-parser,3.2.0,,
-jsoniter-go,1.1.12,,
-levn,0.4.1,,
-lilconfig,2.1.0,,
-lines-and-columns,1.2.4,,
-load-json-file,4.0.0,,
-local-pkg,0.4.3,,
-locate-path,6.0.0,,
-lodash.merge,4.6.2,npm,
-loupe,2.3.6,,
-magic-string,0.30.2,,
-martian,3.2.1,,
-mattn-go-isatty,0.0.16,,
-media,v118.0.5993.70,,
-memorystream-mcavage,0.3.1,,
-merge2,1.4.1,,
-mergo,0.3.13,,
-micromatch,4.0.5,,
-mime-db,1.52.0,,
-minimatch,3.1.2,,
-minimatch,5.1.6,,
-minimatch,9.0.1,,
-minimatch,9.0.3,,
-mlly,1.4.0,,
-mod,0.7.0,,
-ms.js,2.1.2,,
-muggle-string,0.3.1,,
-mz,2.7.0,,
-nanoid,3.3.6,,
-natural-compare,1.4.0,,
-natural-compare-lite,1.4.0,,
-net,v118.0.5993.70,,
-net,0.4.0,,
-nice-try,1.0.5,,
-node-concat-map,0.0.1,,
-node-cross-spawn,6.0.5,,
-node-cross-spawn,7.0.3,,
-node-entities,4.5.0,,
-node-error-ex,1.3.2,,
-node-glob,7.2.3,,
-node-glob,8.1.0,,
-node-glob,7.1.6,,
-node-graceful-fs,4.2.11,,
-node-http-proxy-agent,5.0.0,,
-node-ignore,5.2.4,,
-node-lru-cache,6.0.0,,
-node-releases,2.0.13,,
-node-semver,5.7.2,,
-node-semver,6.3.1,,
-node-semver,7.5.4,,
-node-shell-quote,1.8.1,,
-node-uuid,9.0.0,,
-nodeca-argparse,2.0.1,,
-nodelib-fs.scandir,2.1.5,,
-nodelib-fs.stat,2.0.5,,
-nodelib-fs.walk,1.2.8,,
-nopt,6.0.0,,
-normalize-package-data,2.5.0,,
-normalize-path,3.0.0,,
-normalize-range,0.1.2,,
-npm-run-all,4.1.5,,
-nth-check,2.1.1,,
-nwsapi,2.2.7,,
-object-assign,4.1.1,,
-object-hash,3.0.0,,
-object-inspect,1.12.3,,
-object-keys,1.1.1,,
-optionator,0.9.3,,
-p-limit,3.1.0,,
-p-limit,4.0.0,,
-p-locate,5.0.0,,
-parent-module,1.0.1,,
-parse-json,4.0.0,,
-parse5,7.1.2,,
-path-exists,4.0.0,,
-path-is-absolute,1.0.1,,
-path-key,2.0.1,,
-path-key,3.1.1,,
-path-parse,1.0.7,,
-path-type,3.0.0,,
-path-type,4.0.0,,
-pathe,1.1.1,,
-pathval,1.1.1,,
-patrickmn-go-cache,2.1.0,,
-picocolors,1.0.0,,
-picomatch,2.3.1,,
-pidtree,0.3.1,,
-pify,2.3.0,,
-pify,3.0.0,,
-pinia,2.1.6,,
-pirates,4.0.6,,
-pkg-types,1.0.3,,
-pmezard-go-difflib,1.0.0,,
-postcss-import,15.1.0,,
-postcss-js,4.0.1,,
-postcss-load-config,4.0.1,,
-postcss-nested,6.0.1,,
-postcss-selector-parser,6.0.13,,
-postcss-value-parser,4.2.0,,
-prelude-ls,1.2.1,,
-prettier,2.8.8,npm,
-prettier-linter-helpers,1.0.0,npm,
-pretty-format,27.5.1,,
-print.js,1.6.0,,
-proto-list,1.2.4,,
-protobuf,3.21.2,Go,
-proxy-from-env,1.1.0,,
-psl,1.9.0,,
-querystringify,2.2.0,,
-queue-microtask,1.2.3,,
-read-cache,1.0.0,,
-read-pkg,3.0.0,,
-readdirp,3.6.0,,
-regexp.prototype.flags,1.5.0,,
-register-service-worker,1.7.2,,
-remoting,v118.0.5993.70,,
-requires-port,1.0.0,,
-resolve-from,4.0.0,,
-reusify,1.0.4,,
-rimraf,3.0.2,,
-rollup,3.28.0,,
-rollup-pluginutils,5.0.3,,
-run-parallel,1.2.0,,
-rushstack-eslint-patch,1.3.3,npm,
-safe-array-concat,1.0.0,,
-safe-regex-test,1.0.0,crates.io,
-safer-buffer,2.1.2,,
-sass,1.65.1,,
-saxes,6.0.0,,
-shebang-command,1.2.0,,
-shebang-command,2.0.0,,
-shebang-regex,1.0.0,crates.io,
-shebang-regex,3.0.0,crates.io,
-side-channel,1.0.4,,
-siginfo,2.0.0,,
-slice-ansi,5.0.0,,
-source-map,0.6.1,,
-source-map-js,1.0.2,,
-spdx-correct.js,3.2.0,,
-spdx-exceptions,2.3.0,,
-spdx-expression-parse.js,3.0.1,,
-spdx-license-ids,3.0.13,,
-stable-stringify,1.0.1,,
-stackback,0.0.2,,
-std-env,3.3.3,,
-string-width,5.1.2,,
-string.prototype.padend,3.1.4,,
-string.prototype.trim,1.2.7,,
-string.prototype.trimend,1.0.6,,
-string.prototype.trimstart,1.0.6,,
-strip-bom,3.0.0,,
-strip-json-comments,3.1.1,,
-strip-literal,1.3.0,,
-sucrase,3.34.0,,
-supports-preserve-symlinks-flag,1.0.0,,
-symbol-tree,3.2.4,,
-sys,0.3.0,,
-tailwindcss,3.3.3,npm,
-text-table,0.2.0,,
-thenify,3.3.1,,
-thenify-all,1.6.0,,
-tinybench,2.5.0,,
-tinypool,0.4.0,,
-tinyspy,1.1.1,,
-to-regex-range,5.0.1,crates.io,
-tools,v118.0.5993.70,,
-tough-cookie,4.1.3,,
-tr46,3.0.0,,
-ts-interface-checker,0.1.13,,
-tsutils,3.21.0,,
-type-check,0.4.0,,
-type-detect,4.0.8,,
-type-fest,0.20.2,,
-typed-array-buffer,1.0.0,,
-typed-array-byte-length,1.0.0,,
-typed-array-byte-offset,1.0.0,,
-typed-array-length,1.0.4,,
-types-bootstrap,5.2.6,,
-types-chai,4.3.5,,
-types-chai-subset,1.3.3,,
-types-crypto-js,4.1.1,,
-types-estree,1.0.1,,
-types-jsdom,20.0.1,,
-types-json-schema,7.0.12,,
-types-node,18.17.5,,
-types-node,20.5.0,,
-types-semver,7.5.0,,
-types-tough-cookie,4.0.2,,
-types-uuid,9.0.2,crates.io,
-ufo,1.2.0,,
-ui,v118.0.5993.70,,
-unbox-primitive,1.0.2,,
-universalify,0.2.0,,
-unplugin,1.4.0,,
-update-browserslist-db,1.0.11,,
-upstream,3.1.18,,
-uri-js,4.4.1,,
-url-parse,1.5.10,,
-util-deprecate,1.0.2,,
-validate-npm-package-license,3.0.4,,
-vite-node,0.29.8,npm,
-vitejs,4.4.9,,
-vitejs-plugin-vue,4.2.3,npm,
-vitest,0.29.8,,
-vitest-expect,0.29.8,,
-vitest-runner,0.29.8,,
-vitest-spy,0.29.8,,
-vitest-utils,0.29.8,,
-volar-language-core,1.10.0,,
-volar-source-map,1.10.0,,
-volar-typescript,1.10.0,npm,
-vue-compiler-core,3.3.4,npm,
-vue-compiler-dom,3.3.4,npm,
-vue-compiler-sfc,3.3.4,npm,
-vue-compiler-ssr,3.3.4,npm,
-vue-component-type-helpers,1.8.4,npm,
-vue-demi,0.14.5,npm,
-vue-devtools-api,6.5.0,npm,
-vue-eslint-config-prettier,7.1.0,npm,
-vue-eslint-config-typescript,11.0.3,npm,
-vue-eslint-parser,9.3.1,npm,
-vue-i18n,9.2.2,npm,
-vue-language-core,1.8.8,npm,
-vue-reactivity,3.3.4,npm,
-vue-reactivity-transform,3.3.4,npm,
-vue-router,4.2.4,npm,
-vue-runtime-core,3.3.4,npm,
-vue-runtime-dom,3.3.4,npm,
-vue-server-renderer,3.3.4,npm,
-vue-shared,3.3.4,npm,
-vue-test-utils,2.4.1,npm,
-vue-tsc,1.8.8,npm,
-vue-tsconfig,0.1.3,npm,
-vue-typescript,1.8.8,npm,
-vue.js,3.3.4,npm,
-w3c-xmlserializer,4.0.0,,
-webidl-conversions,7.0.0,,
-webpack-sources,3.2.3,npm,
-webpack-virtual-modules,0.5.0,npm,
-whatwg-encoding,2.0.0,,
-whatwg-mimetype,3.0.0,,
-whatwg-url,11.0.0,,
-which,1.3.1,,
-which,2.0.2,,
-which-boxed-primitive,1.0.2,,
-which-typed-array,1.1.11,,
-why-is-node-running,2.2.2,,
-wmi,1.2.2,,
-wrappy,1.0.2,,
-xml-name-validator,4.0.0,,
-xmlchars,2.2.0,,
-yallist,4.0.0,,
-yaml,1.10.2,,
-yaml,2.3.1,,
-yaml-eslint-parser,0.3.2,npm,
-yocto-queue,0.1.0,,
-yocto-queue,1.0.0,,
-boost,1.6.0,,
-gflags,2.1.1,,
-openssl,1.0.2k,Debian,
-snappy,1.1.3,,
-zlib,1.2.8,Debian,
-knockout,3.2.0,,
-lesi.collections,3.3.1.4000,,
-miniz,1.15,,
-openssl,1.0.2,Debian,
-protobuf,3.3.0,Go,
-protobuf-net,2.0.0.668,Go,
-googlemock,1.7.0,,
-googletest,1.7.0,,
+helper-string-parser,7.19.4,,The Babel Team
+helper-validator-identifier,7.19.1,,The Babel Team
+parser,7.21.2,,The Babel Team
+types,7.21.2,npm,The Babel Team
+colors,1.5.0,npm,DABH
+diagnostics,2.0.3,npm,Arnout Kazemier
+promisify,1.1.3,npm,Gar
+node-pre-gyp,1.0.10,npm,Dane Springmeyer
+ansi-regex,5.0.1,npm,Sindre Sorhus
+are-we-there-yet,2.0.0,npm,GitHub Inc.
+detect-libc,2.0.1,npm,Lovell Fuller
+gauge,3.0.2,npm,Rebecca Turner
+is-fullwidth-code-point,3.0.0,npm,Sindre Sorhus
+make-dir,3.1.0,npm,Sindre Sorhus
+semver,6.3.0,npm,
+nopt,5.0.0,npm,Isaac Z. Schlueter
+npmlog,5.0.1,npm,Isaac Z. Schlueter
+readable-stream,3.6.1,npm,
+string-width,4.2.3,npm,Sindre Sorhus
+strip-ansi,6.0.1,npm,Sindre Sorhus
+core-loader,4.26.1,npm,Jesus Seijas
+core,4.26.1,npm,Jesus Seijas
+evaluator,4.26.1,npm,Jesus Seijas
+lang-all,4.26.1,npm,Jesus Seijas
+lang-ar,4.26.1,npm,Jesus Seijas
+lang-bn,4.26.1,npm,Jesus Seijas
+lang-ca,4.26.1,npm,Jesus Seijas
+lang-cs,4.26.1,npm,Jesus Seijas
+lang-da,4.26.1,npm,Jesus Seijas
+lang-de,4.26.1,npm,Jesus Seijas
+lang-el,4.26.1,npm,Jesus Seijas
+lang-en-min,4.26.1,npm,Jesus Seijas
+lang-en,4.26.1,npm,Jesus Seijas
+lang-es,4.26.1,npm,Jesus Seijas
+lang-eu,4.26.1,npm,Jesus Seijas
+lang-fa,4.26.1,npm,Jesus Seijas
+lang-fi,4.26.1,npm,Jesus Seijas
+lang-fr,4.26.1,npm,Jesus Seijas
+lang-ga,4.26.1,npm,Jesus Seijas
+lang-gl,4.26.1,npm,Jesus Seijas
+lang-hi,4.26.1,npm,Jesus Seijas
+lang-hu,4.26.1,npm,Jesus Seijas
+lang-hy,4.26.1,npm,Jesus Seijas
+lang-id,4.26.1,npm,Jesus Seijas
+lang-it,4.26.1,npm,Jesus Seijas
+lang-ja,4.26.1,npm,Jesus Seijas
+lang-ko,4.26.1,npm,Jesus Seijas
+lang-lt,4.26.1,npm,Jesus Seijas
+lang-ms,4.26.1,npm,Jesus Seijas
+lang-ne,4.26.1,npm,Jesus Seijas
+lang-nl,4.26.1,npm,Jesus Seijas
+lang-no,4.26.1,npm,Jesus Seijas
+lang-pl,4.26.1,npm,Jesus Seijas
+lang-pt,4.26.1,npm,Jesus Seijas
+lang-ro,4.26.1,npm,Jesus Seijas
+lang-ru,4.26.1,npm,Jesus Seijas
+lang-sl,4.26.1,npm,Jesus Seijas
+lang-sr,4.26.1,npm,Jesus Seijas
+lang-sv,4.26.1,npm,Jesus Seijas
+lang-ta,4.26.1,npm,Jesus Seijas
+lang-th,4.26.1,npm,Jesus Seijas
+lang-tl,4.26.1,npm,Jesus Seijas
+lang-tr,4.26.1,npm,Jesus Seijas
+lang-uk,4.26.1,npm,Jesus Seijas
+lang-zh,4.26.1,npm,Jesus Seijas
+language-min,4.25.0,npm,Jesus Seijas
+language,4.25.0,npm,Jesus Seijas
+ner,4.26.1,npm,Jesus Seijas
+neural,4.25.0,npm,Jesus Seijas
+nlg,4.26.1,npm,Jesus Seijas
+nlp,4.26.1,npm,Jesus Seijas
+nlu,4.26.1,npm,Jesus Seijas
+request,4.25.0,npm,Jesus Seijas
+sentiment,4.26.1,npm,Jesus Seijas
+similarity,4.26.1,npm,Jesus Seijas
+slot,4.26.1,npm,Jesus Seijas
+fs,1.1.1,npm,GitHub Inc.
+move-file,1.1.2,npm,%40npmcli
+mkdirp,1.0.4,npm,
+core,12.0.1,npm,Gerald Yeo
+plugin-crypto,12.0.1,npm,Gerald Yeo
+plugin-thirty-two,12.0.1,npm,Gerald Yeo
+preset-default,12.0.1,npm,Gerald Yeo
+preset-v11,12.0.1,npm,Gerald Yeo
+is,0.7.0,npm,Sindre Sorhus
+helpers,0.3.17,npm,강동윤
+token,0.3.0,npm,Borewit
+once,2.0.0,npm,Nathan Rajlich
+component-emitter,1.2.11,npm,%40types
+cookie,0.4.1,npm,%40types
+cors,2.8.13,npm,%40types
+debug,4.1.7,npm,%40types
+ms,0.7.31,npm,%40types
+node,18.14.1,npm,%40types
+strip-bom,3.0.0,npm,Mohamed Hegazy
+strip-json-comments,0.0.30,npm,%40types
+triple-beam,1.3.2,npm,%40types
+validator,13.7.12,npm,%40types
+abbrev,1.1.1,npm,Isaac Z. Schlueter
+accepts,1.3.8,npm,
+acorn-walk,8.2.0,npm,
+acorn,7.4.1,npm,
+agent-base,6.0.2,npm,Nathan Rajlich
+debug,4.3.4,npm,Josh Junon
+ms,2.1.2,npm,
+agentkeepalive,4.2.1,npm,fengmk2
+depd,1.1.2,npm,Douglas Christopher Wilson
+aggregate-error,3.1.0,npm,Sindre Sorhus
+ajv,6.12.6,npm,Evgeny Poberezkin
+ansi-regex,2.1.1,npm,Sindre Sorhus
+ansi-styles,3.2.1,npm,Sindre Sorhus
+anymatch,3.1.3,npm,Elan Shanker
+normalize-path,3.0.0,npm,Jon Schlinkert
+append-field,1.0.0,npm,Linus Unnebäck
+aproba,1.2.0,npm,Rebecca Turner
+archive-type,4.0.0,npm,Kevin Mårtensson
+file-type,4.4.0,npm,Sindre Sorhus
+archiver-utils,1.3.0,npm,Chris Talkington
+archiver,1.3.0,npm,Chris Talkington
+are-we-there-yet,1.1.7,npm,Rebecca Turner
+arg,4.1.3,npm,Josh Junon
+argparse,1.0.10,npm,
+sprintf-js,1.0.3,npm,Alexandru Marasteanu
+arr-diff,4.0.0,npm,Jon Schlinkert
+arr-flatten,1.1.0,npm,Jon Schlinkert
+arr-union,3.1.0,npm,Jon Schlinkert
+array-each,1.0.1,npm,Jon Schlinkert
+array-flatten,1.1.1,npm,Blake Embrey
+array-slice,1.1.0,npm,Jon Schlinkert
+array-unique,0.3.2,npm,Jon Schlinkert
+asap,2.0.6,npm,
+asn1,0.2.6,npm,Joyent
+assert-never,1.2.1,npm,Daniel Lytkin
+assert-plus,1.0.0,npm,Mark Cavage
+assign-symbols,1.0.0,npm,Jon Schlinkert
+async,2.6.4,npm,Caolan McMahon
+asynckit,0.4.0,npm,Alex Indigo
+at-least-node,1.0.0,npm,Ryan Zimmerman
+atob,2.1.2,npm,AJ ONeal
+available-typed-arrays,1.0.5,npm,Jordan Harband
+aws-sign2,0.7.0,npm,Mikeal Rogers
+aws4,1.12.0,npm,Michael Hart
+babel-walk,3.0.0-canary-5,npm,Timothy Gu
+balanced-match,1.0.2,npm,Julian Gruber
+base,0.11.2,npm,Jon Schlinkert
+define-property,1.0.0,npm,Jon Schlinkert
+base64-arraybuffer,0.1.4,npm,Niklas von Hertzen
+base64-js,1.5.1,npm,T. Jameson Little
+base64id,2.0.0,npm,Kristian Faeldt
+base64url,0.0.6,npm,Brian J Brennan
+basic-auth,2.0.1,npm,
+batch,0.6.1,npm,TJ Holowaychuk
+bcrypt-pbkdf,1.0.2,npm,
+big-integer,1.6.51,npm,Peter Olson
+binary-extensions,2.2.0,npm,Sindre Sorhus
+binary,0.3.0,npm,James Halliday
+bindings,1.5.0,npm,Nathan Rajlich
+bintrees,1.0.2,npm,Vadim Graboys
+bl,1.2.3,npm,
+bluebird,3.7.2,npm,Petka Antonov
+body-parser,1.20.2,npm,
+bower-config,1.4.3,npm,Twitter
+minimist,0.2.3,npm,James Halliday
+brace-expansion,2.0.1,npm,Julian Gruber
+braces,2.3.2,npm,Jon Schlinkert
+extend-shallow,2.0.1,npm,Jon Schlinkert
+is-extendable,0.1.1,npm,Jon Schlinkert
+brotli,1.3.3,npm,Devon Govett
+buffer-alloc-unsafe,1.1.0,npm,
+buffer-alloc,1.2.0,npm,
+buffer-crc32,0.2.13,npm,Brian J. Brennan
+buffer-fill,1.0.0,npm,
+buffer-from,1.1.2,npm,
+buffer-indexof-polyfill,1.0.2,npm,https://github.com/sarosia
+buffer,5.7.1,npm,Feross Aboukhadijeh
+buffers,0.1.1,npm,James Halliday
+busboy,0.2.14,npm,Brian White
+isarray,0.0.1,npm,Julian Gruber
+readable-stream,1.1.14,npm,Isaac Z. Schlueter
+string_decoder,0.10.31,npm,
+byline,4.2.2,npm,John Hewson
+bytes,3.1.2,npm,TJ Holowaychuk
+cacache,15.3.0,npm,
+cache-base,1.0.1,npm,Jon Schlinkert
+cacheable-request,2.1.4,npm,Luke Childs
+get-stream,3.0.0,npm,Sindre Sorhus
+lowercase-keys,1.0.0,npm,Sindre Sorhus
+call-bind,1.0.2,npm,Jordan Harband
+camelcase,5.3.1,npm,Sindre Sorhus
+caseless,0.12.0,npm,Mikeal Rogers
+chainsaw,0.1.0,npm,James Halliday
+chalk,2.4.2,npm,
+character-parser,2.2.0,npm,ForbesLindesay
+check-dependencies,1.1.0,npm,Michał Gołębiowski-Owczarek
+semver,5.7.1,npm,
+check-types,6.0.0,npm,Phil Booth
+chokidar,3.5.3,npm,Paul Miller
+braces,3.0.2,npm,Jon Schlinkert
+fill-range,7.0.1,npm,Jon Schlinkert
+is-glob,4.0.3,npm,Jon Schlinkert
+is-number,7.0.0,npm,Jon Schlinkert
+to-regex-range,5.0.1,npm,Jon Schlinkert
+chownr,2.0.0,npm,Isaac Z. Schlueter
+clarinet,0.12.5,npm,Nuno Job
+class-utils,0.3.6,npm,Jon Schlinkert
+define-property,0.2.5,npm,Jon Schlinkert
+is-accessor-descriptor,0.1.6,npm,Jon Schlinkert
+kind-of,3.2.2,npm,Jon Schlinkert
+is-data-descriptor,0.1.4,npm,Jon Schlinkert
+is-descriptor,0.1.6,npm,Jon Schlinkert
+kind-of,5.1.0,npm,Jon Schlinkert
+clean-stack,2.2.0,npm,Sindre Sorhus
+cliui,5.0.0,npm,Ben Coe
+ansi-regex,4.1.1,npm,Sindre Sorhus
+emoji-regex,7.0.3,npm,Mathias Bynens
+is-fullwidth-code-point,2.0.0,npm,Sindre Sorhus
+string-width,3.1.0,npm,Sindre Sorhus
+strip-ansi,5.2.0,npm,Sindre Sorhus
+clone-response,1.0.2,npm,Luke Childs
+clone,2.1.2,npm,Paul Vorbach
+code-point-at,1.1.0,npm,Sindre Sorhus
+collection-visit,1.0.0,npm,Jon Schlinkert
+color-convert,1.9.3,npm,Heather Arthur
+color-name,1.1.3,npm,DY
+color-string,1.9.1,npm,Heather Arthur
+color-support,1.1.3,npm,Isaac Z. Schlueter
+color,3.2.1,npm,
+colors,1.4.0,npm,Marak Squires
+colorspace,1.1.4,npm,Arnout Kazemier
+combined-stream,1.0.8,npm,Felix Geisendörfer
+commander,2.20.3,npm,TJ Holowaychuk
+component-emitter,1.3.0,npm,
+component-type,1.2.1,npm,
+compress-commons,1.2.2,npm,Chris Talkington
+compressible,2.0.18,npm,
+compression,1.7.4,npm,
+bytes,3.0.0,npm,TJ Holowaychuk
+concat-map,0.0.1,npm,James Halliday
+concat-stream,1.6.2,npm,Max Ogden
+concurrently,5.3.0,npm,Kimmo Brunfeldt
+supports-color,6.1.0,npm,Sindre Sorhus
+config,3.3.9,npm,Loren West
+console-control-strings,1.1.0,npm,Rebecca Turner
+constantinople,4.0.1,npm,ForbesLindesay
+content-disposition,0.5.4,npm,Douglas Christopher Wilson
+safe-buffer,5.2.1,npm,Feross Aboukhadijeh
+content-type,1.0.5,npm,Douglas Christopher Wilson
+cookie-parser,1.4.6,npm,TJ Holowaychuk
+cookie-signature,1.0.6,npm,TJ Holowaychuk
+cookie,0.4.1,npm,Roman Shtylman
+copy-descriptor,0.1.1,npm,Jon Schlinkert
+core-util-is,1.0.3,npm,Isaac Z. Schlueter
+cors,2.8.5,npm,Troy Goode
+crc,3.8.0,npm,Alex Gorbatchev
+crc32-stream,2.0.0,npm,Chris Talkington
+create-require,1.1.1,npm,
+crypto-js,3.3.0,npm,Evan Vosberg
+dashdash,1.14.1,npm,Trent Mick
+date-fns,2.29.3,npm,
+dateformat,4.6.3,npm,Steven Levithan
+debug,2.6.9,npm,TJ Holowaychuk
+decamelize,1.2.0,npm,Sindre Sorhus
+decode-uri-component,0.2.2,npm,Sam Verschueren
+decompress-response,3.3.0,npm,
+decompress-tar,4.1.1,npm,Kevin Mårtensson
+file-type,5.2.0,npm,Sindre Sorhus
+decompress-tarbz2,4.1.1,npm,Kevin Mårtensson
+file-type,6.2.0,npm,Sindre Sorhus
+decompress-targz,4.1.1,npm,Kevin Mårtensson
+decompress-unzip,4.0.1,npm,Kevin Mårtensson
+file-type,3.9.0,npm,Sindre Sorhus
+get-stream,2.3.1,npm,Sindre Sorhus
+pify,2.3.0,npm,Sindre Sorhus
+decompress,4.2.1,npm,Kevin Mårtensson
+make-dir,1.3.0,npm,Sindre Sorhus
+pify,3.0.0,npm,Sindre Sorhus
+deep-equal,2.2.0,npm,James Halliday
+deep-extend,0.6.0,npm,Viacheslav Lotsmanov
+deep-is,0.1.4,npm,Thorsten Lorenz
+define-properties,1.2.0,npm,Jordan Harband
+define-property,2.0.2,npm,Jon Schlinkert
+delayed-stream,1.0.0,npm,Felix Geisendörfer
+delegates,1.0.0,npm,
+depd,2.0.0,npm,Douglas Christopher Wilson
+destroy,1.2.0,npm,Jonathan Ong
+detect-file,1.0.0,npm,Brian Woodward
+detect-libc,1.0.3,npm,Lovell Fuller
+dfa,1.2.0,npm,Devon Govett
+dicer,0.2.5,npm,Brian White
+diff,4.0.2,npm,
+doctypes,1.1.0,npm,ForbesLindesay
+domelementtype,1.3.1,npm,Felix Boehm
+domhandler,2.1.0,npm,Felix Boehm
+domutils,1.1.6,npm,Felix Boehm
+dottie,2.0.3,npm,Mick Hansen
+double-ended-queue,0.9.7,npm,Petka Antonov
+doublearray,0.0.2,npm,takuyaa
+download,8.0.0,npm,Kevin Mårtensson
+file-type,11.1.0,npm,Sindre Sorhus
+duplexer2,0.1.4,npm,Conrad Pankoff
+duplexer3,0.1.5,npm,
+dynamic-dedupe,0.3.0,npm,Thorsten Lorenz
+ecc-jsbn,0.1.2,npm,Jeremie Miller
+ee-first,1.1.1,npm,Jonathan Ong
+eivindfjeldstad-dot,0.0.1,npm,
+emoji-regex,8.0.0,npm,Mathias Bynens
+enabled,2.0.0,npm,Arnout Kazemier
+encodeurl,1.0.2,npm,
+encoding,0.1.13,npm,Andris Reinman
+iconv-lite,0.6.3,npm,Alexander Shtuchkin
+end-of-stream,1.4.4,npm,Mathias Buus
+engine.io-parser,4.0.3,npm,
+engine.io,4.1.2,npm,Guillermo Rauch
+env-paths,2.2.1,npm,Sindre Sorhus
+err-code,1.1.2,npm,IndigoUnited
+error-ex,1.3.2,npm,
+errorhandler,1.5.1,npm,
+es-get-iterator,1.1.3,npm,Jordan Harband
+escape-html,1.0.3,npm,
+escape-string-regexp,1.0.5,npm,Sindre Sorhus
+escodegen,2.0.0,npm,
+esprima,4.0.1,npm,Ariya Hidayat
+estraverse,5.3.0,npm,
+esutils,2.0.3,npm,
+etag,1.8.1,npm,
+eventemitter2,0.4.14,npm,hij1nx
+eventemitter3,1.1.1,npm,Arnout Kazemier
+exif,0.6.0,npm,
+exit,0.1.2,npm,"""Cowboy"" Ben Alman"
+expand-brackets,2.1.4,npm,Jon Schlinkert
+expand-template,2.0.3,npm,LM
+expand-tilde,2.0.2,npm,Jon Schlinkert
+express-ipfilter,1.3.1,npm,jetersen
+express-jwt,0.1.3,npm,Matias Woloski
+jsonwebtoken,0.1.0,npm,auth0
+moment,2.0.0,npm,Tim Wood
+express-rate-limit,5.5.1,npm,Nathan Friedly
+express-robots-txt,0.4.1,npm,modosc
+express-security.txt,2.0.0,npm,
+express,4.18.2,npm,TJ Holowaychuk
+body-parser,1.20.1,npm,
+cookie,0.5.0,npm,Roman Shtylman
+raw-body,2.5.1,npm,Jonathan Ong
+ext-list,2.2.2,npm,Kevin Mårtensson
+ext-name,5.0.0,npm,Kevin Mårtensson
+extend-shallow,3.0.2,npm,Jon Schlinkert
+extend,3.0.2,npm,Stefan Thomas
+extglob,2.0.4,npm,Jon Schlinkert
+extsprintf,1.3.0,npm,
+fast-deep-equal,3.1.3,npm,Evgeny Poberezkin
+fast-json-stable-stringify,2.1.0,npm,James Halliday
+fast-levenshtein,2.0.6,npm,Ramesh Nair
+fast.js,0.1.1,npm,Charles Pick
+fd-slicer,1.1.0,npm,Andrew Kelley
+feature-policy,0.5.0,npm,Evan Hahn
+fecha,4.2.3,npm,Taylor Hakes
+file-js,0.3.0,npm,nspragg@gmail.com
+brace-expansion,1.1.11,npm,Julian Gruber
+minimatch,3.1.2,npm,Isaac Z. Schlueter
+file-stream-rotator,0.5.7,npm,Roger Castells
+file-type,16.5.4,npm,Sindre Sorhus
+file-uri-to-path,1.0.0,npm,Nathan Rajlich
+filehound,1.17.6,npm,
+filename-reserved-regex,2.0.0,npm,Sindre Sorhus
+filenamify,3.0.0,npm,Sindre Sorhus
+filesniffer,1.0.3,npm,
+fill-range,4.0.0,npm,Jon Schlinkert
+finale-rest,1.2.0,npm,Tom Juszczyk
+finalhandler,1.2.0,npm,Douglas Christopher Wilson
+find-up,3.0.0,npm,Sindre Sorhus
+findup-sync,2.0.0,npm,"""Cowboy"" Ben Alman"
+fined,1.2.0,npm,Gulp Team
+flagged-respawn,1.0.1,npm,Gulp Team
+fn.name,1.1.0,npm,Arnout Kazemier
+fontkit,1.9.0,npm,Devon Govett
+for-each,0.3.3,npm,Raynos
+for-in,1.0.2,npm,Jon Schlinkert
+for-own,1.0.0,npm,Jon Schlinkert
+foreachasync,3.0.0,npm,AJ ONeal
+forever-agent,0.6.1,npm,Mikeal Rogers
+form-data,2.3.3,npm,Felix Geisendörfer
+formatio,1.1.1,npm,Christian Johansen
+forwarded,0.2.0,npm,
+fragment-cache,0.2.1,npm,Jon Schlinkert
+fresh,0.5.2,npm,TJ Holowaychuk
+from2,2.3.0,npm,Hugh Kennedy
+fs-constants,1.0.0,npm,Mathias Buus
+fs-extra,9.1.0,npm,JP Richardson
+fs-minipass,2.1.0,npm,Isaac Z. Schlueter
+fs.realpath,1.0.0,npm,Isaac Z. Schlueter
+fstream,1.0.12,npm,Isaac Z. Schlueter
+rimraf,2.7.1,npm,Isaac Z. Schlueter
+function-bind,1.1.1,npm,Raynos
+functions-have-names,1.2.3,npm,Jordan Harband
+fuzzball,1.4.0,npm,Nolan Kaplan
+gauge,2.7.4,npm,Rebecca Turner
+geojson-utils,1.1.0,npm,Max Ogden
+get-caller-file,2.0.5,npm,Stefan Penner
+get-intrinsic,1.2.0,npm,Jordan Harband
+get-stream,4.1.0,npm,Sindre Sorhus
+get-value,2.0.6,npm,Jon Schlinkert
+getobject,1.0.2,npm,"""Cowboy"" Ben Alman"
+getpass,0.1.7,npm,Alex Wilson
+github-from-package,0.0.0,npm,James Halliday
+glob-parent,5.1.2,npm,Gulp Team
+glob,7.2.3,npm,Isaac Z. Schlueter
+global-modules,1.0.0,npm,Jon Schlinkert
+global-prefix,1.0.2,npm,Jon Schlinkert
+which,1.3.1,npm,Isaac Z. Schlueter
+gopd,1.0.1,npm,Jordan Harband
+got,8.3.2,npm,
+graceful-fs,4.2.10,npm,
+grunt-cli,1.4.3,npm,Grunt Development Team
+nopt,4.0.3,npm,Isaac Z. Schlueter
+grunt-contrib-compress,1.6.0,npm,Grunt Team
+ansi-styles,2.2.1,npm,Sindre Sorhus
+chalk,1.1.3,npm,
+supports-color,2.0.0,npm,Sindre Sorhus
+grunt-known-options,2.0.0,npm,Grunt Development Team
+grunt-legacy-log-utils,2.1.0,npm,"""Cowboy"" Ben Alman"
+ansi-styles,4.3.0,npm,Sindre Sorhus
+chalk,4.1.2,npm,
+color-convert,2.0.1,npm,Heather Arthur
+color-name,1.1.4,npm,DY
+has-flag,4.0.0,npm,Sindre Sorhus
+supports-color,7.2.0,npm,Sindre Sorhus
+grunt-legacy-log,3.0.0,npm,"""Cowboy"" Ben Alman"
+colors,1.1.2,npm,Marak Squires
+grunt-legacy-util,2.0.1,npm,Grunt Development Team
+async,3.2.4,npm,Caolan McMahon
+grunt-replace-json,0.1.0,npm,Agustin Croce
+grunt,1.6.1,npm,Grunt Development Team
+findup-sync,5.0.0,npm,Gulp Team
+glob,7.1.7,npm,Isaac Z. Schlueter
+micromatch,4.0.5,npm,Jon Schlinkert
+minimatch,3.0.8,npm,Isaac Z. Schlueter
+handlebars,4.7.7,npm,Yehuda Katz
+wordwrap,1.0.0,npm,James Halliday
+har-schema,2.0.0,npm,Ahmad Nassri
+har-validator,5.1.5,npm,Ahmad Nassri
+has-ansi,2.0.0,npm,Sindre Sorhus
+has-bigints,1.0.2,npm,Jordan Harband
+has-flag,3.0.0,npm,Sindre Sorhus
+has-property-descriptors,1.0.0,npm,Jordan Harband
+has-symbol-support-x,1.4.2,npm,Graham Fairweather
+has-symbols,1.0.3,npm,Jordan Harband
+has-to-string-tag-x,1.4.1,npm,Graham Fairweather
+has-tostringtag,1.0.0,npm,Jordan Harband
+has-unicode,2.0.1,npm,Rebecca Turner
+has-value,1.0.0,npm,Jon Schlinkert
+has-values,1.0.0,npm,Jon Schlinkert
+kind-of,4.0.0,npm,Jon Schlinkert
+has,1.0.3,npm,Thiago de Arruda
+hashids,2.2.11,npm,hashids.org
+hbs,4.2.0,npm,Don Park
+he,0.4.1,npm,Mathias Bynens
+heap,0.2.7,npm,Xueqiao Xu
+helmet,4.6.0,npm,Adam Baldwin
+hoister,0.0.2,npm,Matt McKegg
+homedir-polyfill,1.0.3,npm,Brian Woodward
+hooker,0.2.3,npm,"""Cowboy"" Ben Alman"
+hosted-git-info,2.8.9,npm,Rebecca Turner
+html-entities,1.4.0,npm,Marat Dulin
+htmlparser2,3.3.0,npm,Felix Boehm
+readable-stream,1.0.34,npm,Isaac Z. Schlueter
+http-cache-semantics,3.8.1,npm,Kornel Lesiński
+http-errors,2.0.0,npm,Jonathan Ong
+http-proxy-agent,5.0.0,npm,Nathan Rajlich
+http-signature,1.2.0,npm,"Joyent, Inc"
+https-proxy-agent,5.0.1,npm,Nathan Rajlich
+humanize-ms,1.2.1,npm,dead-horse
+i18n,0.11.1,npm,Marcus Spiegel
+iconv-lite,0.4.24,npm,Alexander Shtuchkin
+ieee754,1.2.1,npm,Feross Aboukhadijeh
+ignore-walk,3.0.4,npm,Isaac Z. Schlueter
+iltorb,2.4.5,npm,
+imurmurhash,0.1.4,npm,Jens Taylor
+indent-string,4.0.0,npm,Sindre Sorhus
+infer-owner,1.0.4,npm,Isaac Z. Schlueter
+inflection,1.13.4,npm,dreamerslab
+inflight,1.0.6,npm,Isaac Z. Schlueter
+inherits,2.0.4,npm,
+ini,1.3.8,npm,Isaac Z. Schlueter
+internal-slot,1.0.5,npm,Jordan Harband
+interpret,1.1.0,npm,Tyler Kellen
+into-stream,3.1.0,npm,Sindre Sorhus
+invariant,2.2.4,npm,Andres Suarez
+ip,1.1.8,npm,Fedor Indutny
+ip6,0.2.10,npm,Qian Chen
+ipaddr.js,1.9.1,npm,whitequark
+is-absolute,1.0.0,npm,Jon Schlinkert
+is-accessor-descriptor,1.0.0,npm,Jon Schlinkert
+is-arguments,1.1.1,npm,Jordan Harband
+is-array-buffer,3.0.1,npm,Jordan Harband
+is-arrayish,0.2.1,npm,Qix
+is-bigint,1.0.4,npm,Jordan Harband
+is-binary-path,2.1.0,npm,Sindre Sorhus
+is-boolean-object,1.1.2,npm,Jordan Harband
+is-buffer,1.1.6,npm,Feross Aboukhadijeh
+is-callable,1.2.7,npm,Jordan Harband
+is-core-module,2.11.0,npm,Jordan Harband
+is-data-descriptor,1.0.0,npm,Jon Schlinkert
+is-date-object,1.0.5,npm,Jordan Harband
+is-descriptor,1.0.2,npm,Jon Schlinkert
+is-docker,2.2.1,npm,Sindre Sorhus
+is-expression,4.0.0,npm,Timothy Gu
+is-extendable,1.0.1,npm,Jon Schlinkert
+is-extglob,2.1.1,npm,Jon Schlinkert
+is-fullwidth-code-point,1.0.0,npm,Sindre Sorhus
+is-generator-function,1.0.10,npm,Jordan Harband
+is-glob,3.1.0,npm,Jon Schlinkert
+is-heroku,2.0.0,npm,Sindre Sorhus
+is-lambda,1.0.1,npm,Thomas Watson Steen
+is-map,2.0.2,npm,Jordan Harband
+is-natural-number,4.0.1,npm,Shinnosuke Watanabe
+is-number-like,1.0.8,npm,Vigour.io
+is-number-object,1.0.7,npm,Jordan Harband
+is-number,3.0.0,npm,Jon Schlinkert
+is-object,1.0.2,npm,Raynos
+is-plain-obj,1.1.0,npm,Sindre Sorhus
+is-plain-object,2.0.4,npm,Jon Schlinkert
+is-promise,2.2.2,npm,ForbesLindesay
+is-regex,1.1.4,npm,Jordan Harband
+is-relative,1.0.0,npm,Jon Schlinkert
+is-retry-allowed,1.2.0,npm,Vsevolod Strukchinsky
+is-set,2.0.2,npm,Jordan Harband
+is-shared-array-buffer,1.0.2,npm,Jordan Harband
+is-stream,1.1.0,npm,Sindre Sorhus
+is-string,1.0.7,npm,Jordan Harband
+is-symbol,1.0.4,npm,Jordan Harband
+is-typed-array,1.1.10,npm,Jordan Harband
+is-typedarray,1.0.0,npm,Hugh Kennedy
+is-unc-path,1.0.0,npm,Jon Schlinkert
+is-weakmap,2.0.1,npm,Jordan Harband
+is-weakset,2.0.2,npm,Jordan Harband
+is-windows,1.0.2,npm,Jon Schlinkert
+isarray,2.0.5,npm,Julian Gruber
+isexe,2.0.0,npm,Isaac Z. Schlueter
+isobject,3.0.1,npm,Jon Schlinkert
+isstream,0.1.2,npm,Rod Vagg
+isurl,1.0.0,npm,Steven Vachon
+js-stringify,1.0.2,npm,ForbesLindesay
+js-tokens,4.0.0,npm,Simon Lydell
+js-yaml,3.14.1,npm,Vladimir Zapparov
+jsbn,0.1.1,npm,Tom Wu
+json-buffer,3.0.0,npm,Dominic Tarr
+json-parse-better-errors,1.0.2,npm,Kat Marchán
+json-schema-traverse,0.4.1,npm,Evgeny Poberezkin
+json-schema,0.4.0,npm,Kris Zyp
+json-stringify-safe,5.0.1,npm,Isaac Z. Schlueter
+json5,2.2.3,npm,Aseem Kishore
+jsonfile,6.1.0,npm,JP Richardson
+jsonwebtoken,0.4.0,npm,auth0
+jsprim,1.4.2,npm,
+jssha,3.3.0,npm,Brian Turek
+jstransformer,1.0.0,npm,ForbesLindesay
+juicy-chat-bot,0.6.6,npm,Björn Kimminich
+jwa,0.0.1,npm,Brian J. Brennan
+jws,0.2.6,npm,Brian J Brennan
+keyv,3.0.0,npm,Luke Childs
+kind-of,6.0.3,npm,Jon Schlinkert
+kuler,2.0.0,npm,Arnout Kazemier
+kuromoji,0.1.2,npm,Takuya Asano
+lazystream,1.0.1,npm,Jonas Pommerening
+levn,0.3.0,npm,George Zahariev
+libxmljs2,0.30.1,npm,marudor
+nan,2.15.0,npm,
+liftup,3.0.1,npm,Grunt Development Team
+findup-sync,4.0.0,npm,Gulp Team
+linebreak,1.1.0,npm,Devon Govett
+base64-js,0.0.8,npm,T. Jameson Little
+listenercount,1.0.1,npm,jden
+locate-path,3.0.0,npm,Sindre Sorhus
+lodash.camelcase,4.3.0,npm,John-David Dalton
+lodash.isfinite,3.3.2,npm,John-David Dalton
+lodash.set,4.3.2,npm,John-David Dalton
+lodash,4.17.21,npm,John-David Dalton
+logform,2.5.1,npm,Charlie Robbins
+ms,2.1.3,npm,
+lolex,1.3.2,npm,Christian Johansen
+loose-envify,1.4.0,npm,Andres Suarez
+lowercase-keys,1.0.1,npm,Sindre Sorhus
+lru-cache,6.0.0,npm,Isaac Z. Schlueter
+make-dir,2.1.0,npm,Sindre Sorhus
+make-error,1.3.6,npm,Julien Fontanet
+make-fetch-happen,9.1.0,npm,Kat Marchán
+once,1.1.2,npm,Nathan Rajlich
+http-cache-semantics,4.1.1,npm,Kornel Lesiński
+http-proxy-agent,4.0.1,npm,Nathan Rajlich
+make-iterator,1.0.1,npm,Jon Schlinkert
+make-plural,6.2.2,npm,Eemeli Aro
+map-cache,0.2.2,npm,Jon Schlinkert
+map-visit,1.0.0,npm,Jon Schlinkert
+marsdb,0.6.11,npm,Artem Artemev
+math-interval-parser,2.0.1,npm,Dmitry Semigradsky
+media-typer,0.3.0,npm,Douglas Christopher Wilson
+merge-descriptors,1.0.1,npm,Jonathan Ong
+messageformat-formatters,2.0.1,npm,Eemeli Aro
+messageformat-parser,4.1.3,npm,
+messageformat,2.3.0,npm,Alex Sexton
+make-plural,4.3.0,npm,Eemeli Aro
+methods,1.1.2,npm,
+micromatch,3.1.10,npm,Jon Schlinkert
+mime-db,1.52.0,npm,
+mime-types,2.1.35,npm,
+mime,1.6.0,npm,Robert Kieffer
+mimic-response,1.0.1,npm,Sindre Sorhus
+minimatch,5.1.6,npm,Isaac Z. Schlueter
+minimist,1.2.8,npm,James Halliday
+minipass-collect,1.0.2,npm,Isaac Z. Schlueter
+minipass-fetch,1.4.1,npm,
+minipass-flush,1.0.5,npm,Isaac Z. Schlueter
+minipass-pipeline,1.2.4,npm,Isaac Z. Schlueter
+minipass-sized,1.0.3,npm,Isaac Z. Schlueter
+minipass,3.3.6,npm,Isaac Z. Schlueter
+minizlib,2.1.2,npm,Isaac Z. Schlueter
+mixin-deep,1.3.2,npm,Jon Schlinkert
+mkdirp-classic,0.5.3,npm,Mathias Buus
+mkdirp,0.5.6,npm,James Halliday
+moment-timezone,0.5.40,npm,Tim Wood
+moment,2.29.4,npm,Iskren Ivov Chernev
+morgan,1.10.0,npm,
+on-finished,2.3.0,npm,
+mout,1.2.4,npm,Miller Medeiros
+ms,2.0.0,npm,
+multer,1.4.4,npm,
+mustache,4.2.0,npm,mustache.js Authors
+nan,2.17.0,npm,
+nanomatch,1.2.13,npm,Jon Schlinkert
+napi-build-utils,1.0.2,npm,Jim Schlight
+needle,2.9.1,npm,Tomás Pollak
+debug,3.2.7,npm,TJ Holowaychuk
+negotiator,0.6.3,npm,
+neo-async,2.6.2,npm,
+node-abi,2.30.1,npm,Lukas Geiger
+node-addon-api,4.3.0,npm,
+node-fetch,2.6.9,npm,David Frank
+node-gyp,8.4.1,npm,Nathan Rajlich
+are-we-there-yet,3.0.1,npm,GitHub Inc.
+gauge,4.0.4,npm,GitHub Inc.
+npmlog,6.0.2,npm,GitHub Inc.
+node-pre-gyp,0.15.0,npm,Dane Springmeyer
+chownr,1.1.4,npm,Isaac Z. Schlueter
+fs-minipass,1.2.7,npm,Isaac Z. Schlueter
+minipass,2.9.0,npm,Isaac Z. Schlueter
+minizlib,1.3.3,npm,Isaac Z. Schlueter
+tar,4.4.19,npm,Isaac Z. Schlueter
+yallist,3.1.1,npm,Isaac Z. Schlueter
+noop-logger,0.1.1,npm,
+nopt,3.0.6,npm,Isaac Z. Schlueter
+normalize-package-data,2.5.0,npm,Meryn Stol
+normalize-path,2.1.1,npm,Jon Schlinkert
+normalize-url,2.0.1,npm,Sindre Sorhus
+notevil,1.3.3,npm,Matt McKegg
+esprima,1.0.4,npm,
+npm-bundled,1.1.2,npm,Isaac Z. Schlueter
+npm-normalize-package-bin,1.0.1,npm,Isaac Z. Schlueter
+npm-packlist,1.4.8,npm,Isaac Z. Schlueter
+npmlog,4.1.2,npm,Isaac Z. Schlueter
+number-is-nan,1.0.1,npm,Sindre Sorhus
+oauth-sign,0.9.0,npm,Mikeal Rogers
+object-assign,4.1.1,npm,Sindre Sorhus
+object-copy,0.1.0,npm,Jon Schlinkert
+object-inspect,1.12.3,npm,James Halliday
+object-is,1.1.5,npm,Jordan Harband
+object-keys,1.1.1,npm,Jordan Harband
+object-visit,1.0.1,npm,Jon Schlinkert
+object.assign,4.1.4,npm,Jordan Harband
+object.defaults,1.1.0,npm,Jon Schlinkert
+object.map,1.0.1,npm,Jon Schlinkert
+object.pick,1.3.0,npm,Jon Schlinkert
+on-finished,2.4.1,npm,
+on-headers,1.0.2,npm,Douglas Christopher Wilson
+once,1.4.0,npm,Isaac Z. Schlueter
+one-time,1.0.0,npm,Arnout Kazemier
+opentype.js,0.7.3,npm,Frederik De Bleser
+optionator,0.8.3,npm,George Zahariev
+os-homedir,1.0.2,npm,Sindre Sorhus
+os-tmpdir,1.0.2,npm,Sindre Sorhus
+osenv,0.1.5,npm,Isaac Z. Schlueter
+otplib,12.0.1,npm,Gerald Yeo
+p-cancelable,0.4.1,npm,Sindre Sorhus
+p-event,2.3.1,npm,Sindre Sorhus
+p-finally,1.0.0,npm,Sindre Sorhus
+p-is-promise,1.1.0,npm,Sindre Sorhus
+p-limit,2.3.0,npm,Sindre Sorhus
+p-locate,3.0.0,npm,Sindre Sorhus
+p-map,4.0.0,npm,Sindre Sorhus
+p-timeout,2.0.1,npm,Sindre Sorhus
+p-try,2.2.0,npm,Sindre Sorhus
+pako,0.2.9,npm,
+parse-filepath,1.0.2,npm,Jon Schlinkert
+parse-json,4.0.0,npm,Sindre Sorhus
+parse-passwd,1.0.0,npm,Brian Woodward
+parseurl,1.3.3,npm,
+pascalcase,0.1.1,npm,Jon Schlinkert
+path-exists,3.0.0,npm,Sindre Sorhus
+path-is-absolute,1.0.1,npm,Sindre Sorhus
+path-parse,1.0.7,npm,Javier Blanco
+path-root-regex,0.1.2,npm,Jon Schlinkert
+path-root,0.1.1,npm,Jon Schlinkert
+path-to-regexp,0.1.7,npm,
+pdfkit,0.11.0,npm,Devon Govett
+peek-readable,4.1.0,npm,Borewit
+pend,1.2.0,npm,Andrew Kelley
+performance-now,2.1.0,npm,Braveg1rl
+pg-connection-string,2.5.0,npm,Blaine Bublitz
+picomatch,2.3.1,npm,Jon Schlinkert
+pify,4.0.1,npm,Sindre Sorhus
+pinkie-promise,2.0.1,npm,Vsevolod Strukchinsky
+pinkie,2.0.4,npm,Vsevolod Strukchinsky
+png-js,1.0.0,npm,Devon Govett
+portscanner,2.2.0,npm,
+posix-character-classes,0.1.1,npm,Jon Schlinkert
+prebuild-install,5.3.6,npm,Mathias Buus
+prelude-ls,1.1.2,npm,George Zahariev
+prepend-http,2.0.0,npm,Sindre Sorhus
+pretty-bytes,4.0.2,npm,Sindre Sorhus
+process-nextick-args,2.0.1,npm,
+prom-client,12.0.0,npm,Simon Nyberg
+promise-inflight,1.0.1,npm,Rebecca Turner
+promise-retry,2.0.1,npm,IndigoUnited
+err-code,2.0.3,npm,IndigoUnited
+retry,0.12.0,npm,Tim Koschützki
+promise,7.3.1,npm,ForbesLindesay
+proper-lockfile,1.2.0,npm,IndigoUnited
+proxy-addr,2.0.7,npm,Douglas Christopher Wilson
+psl,1.9.0,npm,Lupo Montero
+pug-attrs,3.0.0,npm,Forbes Lindesay
+pug-code-gen,3.0.2,npm,Forbes Lindesay
+pug-error,2.0.0,npm,Forbes Lindesay
+pug-filters,4.0.0,npm,Forbes Lindesay
+pug-lexer,5.0.1,npm,ForbesLindesay
+pug-linker,4.0.0,npm,Forbes Lindesay
+pug-load,3.0.0,npm,ForbesLindesay
+pug-parser,6.0.0,npm,ForbesLindesay
+pug-runtime,3.0.1,npm,ForbesLindesay
+pug-strip-comments,2.0.0,npm,Timothy Gu
+pug-walk,2.0.0,npm,ForbesLindesay
+pug,3.0.2,npm,TJ Holowaychuk
+pump,3.0.0,npm,Mathias Buus Madsen
+punycode,2.3.0,npm,Mathias Bynens
+qs,6.11.0,npm,
+query-string,5.1.1,npm,Sindre Sorhus
+range_check,2.0.4,npm,Kevin Whitman
+range-parser,1.2.1,npm,TJ Holowaychuk
+raw-body,2.5.2,npm,Jonathan Ong
+rc,1.2.8,npm,Dominic Tarr
+read-pkg,4.0.1,npm,Sindre Sorhus
+readable-stream,2.3.8,npm,
+isarray,1.0.0,npm,Julian Gruber
+readable-web-to-node-stream,3.0.2,npm,Borewit
+readdirp,3.6.0,npm,Thorsten Lorenz
+rechoir,0.7.1,npm,Gulp Team
+regex-not,1.0.2,npm,Jon Schlinkert
+regexp.prototype.flags,1.4.3,npm,Jordan Harband
+remove-trailing-separator,1.1.0,npm,darsain
+repeat-element,1.1.4,npm,Jon Schlinkert
+repeat-string,1.6.1,npm,Jon Schlinkert
+replace,1.2.2,npm,Alessandro Maclaine
+cliui,6.0.0,npm,Ben Coe
+find-up,4.1.0,npm,Sindre Sorhus
+locate-path,5.0.0,npm,Sindre Sorhus
+minimatch,3.0.5,npm,Isaac Z. Schlueter
+p-locate,4.1.0,npm,Sindre Sorhus
+path-exists,4.0.0,npm,Sindre Sorhus
+wrap-ansi,6.2.0,npm,Sindre Sorhus
+yargs-parser,18.1.3,npm,Ben Coe
+yargs,15.4.1,npm,
+request,2.88.2,npm,Mikeal Rogers
+qs,6.5.3,npm,
+require-directory,2.1.1,npm,Troy Goode
+require-main-filename,2.0.0,npm,Ben Coe
+resolve-dir,1.0.1,npm,Jon Schlinkert
+resolve-url,0.2.1,npm,Simon Lydell
+resolve,1.22.1,npm,James Halliday
+responselike,1.0.2,npm,lukechilds
+restructure,2.0.1,npm,Devon Govett
+ret,0.1.15,npm,Roly Fentanes
+retry-as-promised,7.0.4,npm,Mick Hansen
+retry,0.10.1,npm,Tim Koschützki
+rimraf,3.0.2,npm,Isaac Z. Schlueter
+rxjs,6.6.7,npm,Ben Lesh
+tslib,1.14.1,npm,Microsoft Corp.
+safe-buffer,5.1.2,npm,Feross Aboukhadijeh
+safe-regex,1.1.0,npm,James Halliday
+safe-stable-stringify,2.4.2,npm,Ruben Bridgewater
+safer-buffer,2.1.2,npm,Nikita Skovoroda
+samsam,1.1.2,npm,Christian Johansen
+sanitize-filename,1.6.3,npm,Parsha Pourkhomami
+sanitize-html,1.4.2,npm,P'unk Avenue LLC
+lodash,2.4.2,npm,John-David Dalton
+sax,1.2.4,npm,Isaac Z. Schlueter
+seek-bzip,1.0.6,npm,
+semver,7.3.8,npm,GitHub Inc.
+send,0.18.0,npm,TJ Holowaychuk
+sequelize-pool,7.1.0,npm,Sushant
+sequelize,6.29.0,npm,
+uuid,8.3.2,npm,
+serve-index,1.9.1,npm,Douglas Christopher Wilson
+http-errors,1.6.3,npm,Jonathan Ong
+inherits,2.0.3,npm,
+setprototypeof,1.1.0,npm,Wes Todd
+statuses,1.5.0,npm,
+serve-static,1.15.0,npm,Douglas Christopher Wilson
+set-blocking,2.0.0,npm,Ben Coe
+set-value,2.0.1,npm,Jon Schlinkert
+setimmediate,1.0.5,npm,YuzuJS
+setprototypeof,1.2.0,npm,Wes Todd
+side-channel,1.0.4,npm,Jordan Harband
+signal-exit,3.0.7,npm,Ben Coe
+simple-concat,1.0.1,npm,Feross Aboukhadijeh
+simple-get,3.1.1,npm,Feross Aboukhadijeh
+decompress-response,4.2.1,npm,Sindre Sorhus
+mimic-response,2.1.0,npm,Sindre Sorhus
+simple-swizzle,0.2.2,npm,Qix
+is-arrayish,0.3.2,npm,Qix
+sinon,1.17.7,npm,Christian Johansen
+smart-buffer,4.2.0,npm,Josh Glazebrook
+snapdragon-node,2.1.1,npm,Jon Schlinkert
+snapdragon-util,3.0.1,npm,Jon Schlinkert
+snapdragon,0.8.2,npm,Jon Schlinkert
+source-map,0.5.7,npm,Nick Fitzgerald
+socket.io-adapter,2.1.0,npm,
+socket.io-parser,4.0.5,npm,
+socket.io,3.1.2,npm,
+socks-proxy-agent,6.2.1,npm,Nathan Rajlich
+socks,2.7.1,npm,Josh Glazebrook
+ip,2.0.0,npm,Fedor Indutny
+sort-keys-length,1.0.1,npm,Kevin Mårtensson
+sort-keys,1.1.2,npm,Sindre Sorhus
+sort-keys,2.0.0,npm,Sindre Sorhus
+source-map-resolve,0.5.3,npm,Simon Lydell
+source-map-support,0.5.21,npm,
+source-map-url,0.4.1,npm,Simon Lydell
+source-map,0.6.1,npm,Nick Fitzgerald
+spawn-command,0.0.2-1,npm,Maciej Małecki
+spdx-correct,3.1.1,npm,Kyle E. Mitchell
+spdx-exceptions,2.3.0,npm,The Linux Foundation
+spdx-expression-parse,3.0.1,npm,Kyle E. Mitchell
+spdx-license-ids,3.0.12,npm,Shinnosuke Watanabe
+split-string,3.1.0,npm,Jon Schlinkert
+sprintf-js,1.1.2,npm,Alexandru Mărășteanu
+sqlite3,5.1.4,npm,Mapbox
+sshpk,1.17.0,npm,"Joyent, Inc"
+ssri,8.0.1,npm,Kat Marchán
+stack-trace,0.0.10,npm,Felix Geisendörfer
+static-extend,0.1.2,npm,Jon Schlinkert
+statuses,2.0.1,npm,
+stop-iteration-iterator,1.0.0,npm,Jordan Harband
+stream-buffers,2.2.0,npm,Sam Day
+streamsearch,0.1.2,npm,Brian White
+strict-uri-encode,1.1.0,npm,Kevin Mårtensson
+string_decoder,1.1.1,npm,
+string-width,1.0.2,npm,Sindre Sorhus
+string.fromcodepoint,0.2.1,npm,Mathias Bynens
+string.prototype.codepointat,0.2.1,npm,Mathias Bynens
+strip-ansi,3.0.1,npm,Sindre Sorhus
+strip-bom,3.0.0,npm,Sindre Sorhus
+strip-dirs,2.1.0,npm,Shinnosuke Watanabe
+strip-json-comments,2.0.1,npm,Sindre Sorhus
+strip-outer,1.0.1,npm,Sindre Sorhus
+strtok3,6.3.0,npm,Borewit
+supports-color,5.5.0,npm,Sindre Sorhus
+supports-preserve-symlinks-flag,1.0.0,npm,Jordan Harband
+svg-captcha,1.4.0,npm,Weilin Shi
+swagger-ui-dist,4.16.0,npm,
+swagger-ui-express,4.6.1,npm,Stephen Scott
+tar-fs,2.1.1,npm,Mathias Buus
+bl,4.1.0,npm,
+tar-stream,2.2.0,npm,Mathias Buus
+tar-stream,1.6.2,npm,Mathias Buus
+tar,6.1.13,npm,GitHub Inc.
+minipass,4.2.1,npm,Isaac Z. Schlueter
+tdigest,0.1.2,npm,Will Welch
+text-hex,1.0.0,npm,Arnout Kazemier
+thirty-two,1.0.2,npm,Chris Umbel
+through,2.3.8,npm,Dominic Tarr
+timed-out,4.0.1,npm,Vsevolod Strukchinsky
+tiny-inflate,1.0.3,npm,Devon Govett
+to-buffer,1.1.1,npm,Mathias Buus
+to-fast-properties,2.0.0,npm,Sindre Sorhus
+to-object-path,0.3.0,npm,Jon Schlinkert
+to-regex-range,2.1.1,npm,Jon Schlinkert
+to-regex,3.0.2,npm,Jon Schlinkert
+toidentifier,1.0.1,npm,Douglas Christopher Wilson
+token-stream,1.0.0,npm,ForbesLindesay
+token-types,4.2.1,npm,Borewit
+toposort-class,1.0.1,npm,
+tough-cookie,2.5.0,npm,Jeremy Stashewsky
+tr46,0.0.3,npm,Sebastian Mayr
+traverse,0.3.9,npm,James Halliday
+tree-kill,1.2.2,npm,Peteris Krumins
+trim-repeated,1.0.0,npm,Sindre Sorhus
+triple-beam,1.3.0,npm,Charlie Robbins
+truncate-utf8-bytes,1.0.2,npm,Carl Xiong
+ts-node-dev,1.1.8,npm,
+ts-node,9.1.1,npm,Blake Embrey
+tsconfig,7.0.0,npm,Blake Embrey
+tslib,2.5.0,npm,Microsoft Corp.
+tunnel-agent,0.6.0,npm,Mikeal Rogers
+tweetnacl,0.14.5,npm,TweetNaCl-js contributors
+type-check,0.3.2,npm,George Zahariev
+type-is,1.6.18,npm,
+typecast,0.0.1,npm,
+typedarray,0.0.6,npm,James Halliday
+typescript,4.9.5,npm,Microsoft Corp.
+uglify-js,3.17.4,npm,Mihai Bazon
+unbzip2-stream,1.4.3,npm,Jan Bölsche
+unc-path-regex,0.1.2,npm,Jon Schlinkert
+underscore.string,3.3.6,npm,
+unicode-properties,1.4.1,npm,Devon Govett
+unicode-trie,2.0.0,npm,Devon Govett
+union-value,1.0.1,npm,Jon Schlinkert
+unique-filename,1.1.1,npm,Rebecca Turner
+unique-slug,2.0.2,npm,Rebecca Turner
+unit-compare,1.0.1,npm,nspragg@gmail.com
+universalify,2.0.0,npm,Ryan Zimmerman
+unpipe,1.0.0,npm,Douglas Christopher Wilson
+unset-value,1.0.0,npm,Jon Schlinkert
+has-value,0.3.1,npm,Jon Schlinkert
+isobject,2.1.0,npm,Jon Schlinkert
+has-values,0.1.4,npm,Jon Schlinkert
+untildify,2.1.0,npm,Sindre Sorhus
+unzipper,0.9.15,npm,Evan Oxfeld
+bluebird,3.4.7,npm,Petka Antonov
+uri-js,4.4.1,npm,Gary Court
+urix,0.1.0,npm,Simon Lydell
+url-parse-lax,3.0.0,npm,Sindre Sorhus
+url-to-options,1.0.1,npm,Steven Vachon
+use,3.1.1,npm,Jon Schlinkert
+utf8-byte-length,1.0.4,npm,Carl Xiong
+util-deprecate,1.0.2,npm,Nathan Rajlich
+util,0.12.5,npm,Joyent
+utils-merge,1.0.1,npm,Jared Hanson
+uuid,3.4.0,npm,
+v8flags,3.2.0,npm,Gulp Team
+validate-npm-package-license,3.0.4,npm,Kyle E. Mitchell
+validate,4.5.1,npm,Eivind Fjeldstad
+validator,13.9.0,npm,Chris O'Hara
+vary,1.1.2,npm,Douglas Christopher Wilson
+verror,1.10.0,npm,
+core-util-is,1.0.2,npm,Isaac Z. Schlueter
+vm2,3.9.11,npm,Patrik Simek
+acorn,8.8.2,npm,
+void-elements,3.1.0,npm,hemanth.hm
+walk,2.3.15,npm,AJ ONeal
+walkdir,0.0.11,npm,Ryan Day
+webidl-conversions,3.0.1,npm,Domenic Denicola
+whatwg-url,5.0.0,npm,Sebastian Mayr
+which-boxed-primitive,1.0.2,npm,Jordan Harband
+which-collection,1.0.1,npm,Jordan Harband
+which-module,2.0.0,npm,nexdrew
+which-pm-runs,1.1.0,npm,Zoltan Kochan
+which-typed-array,1.1.9,npm,Jordan Harband
+which,2.0.2,npm,Isaac Z. Schlueter
+wide-align,1.1.5,npm,Rebecca Turner
+winston-transport,4.5.0,npm,Charlie Robbins
+winston,3.8.2,npm,Charlie Robbins
+is-stream,2.0.1,npm,Sindre Sorhus
+with,7.0.2,npm,ForbesLindesay
+wkx,0.5.0,npm,Christian Schwarz
+word-wrap,1.2.3,npm,Jon Schlinkert
+wordwrap,0.0.3,npm,James Halliday
+wrap-ansi,5.1.0,npm,Sindre Sorhus
+wrappy,1.0.2,npm,Isaac Z. Schlueter
+ws,7.4.6,npm,Einar Otto Stangvik
+xtend,4.0.2,npm,Raynos
+y18n,4.0.3,npm,Ben Coe
+yallist,4.0.0,npm,Isaac Z. Schlueter
+yaml-schema-validator,1.2.3,npm,Ketan Saxena
+yargs-parser,13.1.2,npm,Ben Coe
+yargs,13.3.2,npm,
+yauzl,2.10.0,npm,Josh Wolfe
+yn,3.1.1,npm,Sindre Sorhus
+z85,0.0.2,npm,Michael Sealand
+zip-stream,1.2.0,npm,Chris Talkington
+zlibjs,0.3.1,npm,Yuta Imaya
