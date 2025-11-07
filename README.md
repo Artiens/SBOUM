@@ -1,5 +1,3 @@
-Absolument. Voici un README.md complet et structuré pour votre dépôt Git. Il présente le projet, ses fonctionnalités clés (y compris celles que vous avez demandées, comme le mode manuel et la limitation du scan), et des instructions détaillées pour l'installation et l'utilisation.
-
 🛡️ SBOM-CVE-Enricher
 
 📝 Description du Projet
